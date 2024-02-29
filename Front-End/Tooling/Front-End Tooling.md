@@ -1,0 +1,207 @@
+---
+Title: Front-End Practice
+Type: O
+tags: 
+DateStarted: 2023-12-21
+DateModified: 2023-12-21
+DateDo: 
+DateDone: 
+DateDue: 
+status: 
+mindmap-plugin: basic
+---
+
+# Front-End Practice
+
+## 🏷️Developer Experience
+
+### team’s experience building and maintaining your application.
+
+### [[TypeScript]]
+
+## 🏷️UI
+
+### 💡From Design to Code
+- how users will consume and interact with your application.
+
+### Front-End Frameworks
+- HTML in JS
+    - 📌[[O-React|React]]
+- JS in HTML
+    - 📌[[O-Vue|Vue]]
+    - 📌[[O-Svelte|Svelte]]
+
+### UI Styling
+- 📌HTML
+- 📌CSS
+    - CSS Fundamentals
+    - CSS Support
+        - Sass
+        - TailwindCSS
+
+### UI Events & Interaction
+- 📌JS
+    - JS Fundamentals
+
+### Component Library
+- React Component Lib
+    - Styled-JSX
+    - 📌Use  Component Lib
+    - 🏷️[[Create & Publish Component Library (React)]]
+- Vue Component Lib
+- Svelte Component Lib
+
+## 🏷️[[Component-Driven Development]]
+
+### [[Project-Init]]
+
+### [[Testing]]
+
+### [[Compilers and Bundlers]]
+
+## 📌Placeholder Data
+
+### Use placeholder data in JSON format or as JavaScript objects.
+
+### Use a 3rd party service like [mockAPI](https://mockapi.io/).
+
+## 🏷️[[Routing]]
+
+### how users navigate between different parts of your application.
+
+### React Router Dom
+
+### 📌[[O-NextJS|NextJS]]
+- Advanced Routing & Nested Layouts
+    - Directory based routing system
+        - *React Router Dom* is not needed with Next.js
+        - Use a new app directory using *file system based routing* like before, but now it's also *directory based*
+        - To creat a page, you give the directory the name of the route, then create a `page.js` file to it that exports the component you want to display there.
+            - We can co-locate extra components in that directory as well instead of needing to create a separate component directory
+        - It opens the door to layouts and nested routing - When you create a `layout.js`, it creates a UI that can be *inherited* by the child routes
+            - When navigate to a route inside of a layout, only the inner UI is rendered as opposed to the entire page.
+    - support for more advanced routing patterns and UI layouts
+    - Easily fetch data for your entire layout
+    - Also it has file naming conventions for *loading* and *error* that can render a different UI *at the component level* based on its current state.
+        - If a component breaks, it'll render `error.js` instead of `page.js`. The rest of the UI stays intact.
+- Middleware
+    - Take control of incoming request
+    - Use code to define routing and access rules for authentication, experimentation, and internationalization
+
+## 🏷️[[Data Fetching]]
+
+### where your data lives and how to get it.
+
+### React Query
+
+### 📌[[O-NextJS|NextJS]]
+- Make React component async and await your data
+    - Now we can totally get rid of things like `getStaticProps`, and `getServerSideProps` , instead we can write a plain JS function uses `fetch` (`async function...await`) and `await` the result of that function directly in a component, no need to pass props back and forth between client and server.
+        - ![[Pasted image 20230227195806.png]]
+- Support both client and server data fetching
+
+## 🏷️Rendering
+
+### The environment where your code runs
+- Development vs. Production
+
+### when and where you render static or dynamic content.
+- *When* your code runs
+    - Build Time vs. Runtime
+- *Where* rendering happens
+    - Client vs. Server
+
+### SSG
+- Static Site Generation
+- 📌[[SSG Frameworks]]
+
+### SSR
+- Server Side Rendering
+- All components are React server components by default. *Server components* are a low level primitive in React that *enables SSR*, but until Next.js 13, they've always been difficult for common developer to use.
+- 数据预加载
+
+### ISR
+- Incremental Static Regeneration
+- 动态渲染
+
+### 📌[[O-NextJS|NextJS]]
+- Client and Server Rendering
+    - Supports *ISR, SSR, SSG* - the new mental model revolves entirely around caching
+- React Server Components
+    - Add components without sending additional client-side JS
+- Dynamic HTML Streaming
+    - Instantly stream UI from server, integrated with the App Router and React Suspense
+
+## 🏷️Integrations (3rd-Party Services)
+
+### what third-party services you use (CMS, auth, payments, etc) and how you connect to them.
+
+### CMS
+
+### [[Authentication]]
+
+### Payments
+
+### [[User Analytics]]
+- [[三方服务——访问统计与分析]]
+
+### [[三方服务——评论功能]]
+
+### 📌[[O-NextJS|NextJS]]
+- Route Handlers
+    - Build API endpoints to securely connect with 3rd party services and consume from your frontend
+
+## 🏷️Infrastructure
+
+### where you deploy, store, and run your application code
+
+### [[Deploying]]
+- Vercel
+- Netlify
+
+### Serverless
+
+### Edge
+
+### CDN
+
+### NodeJS
+
+### [[代理-Nginx]]
+
+## 🏷️[[Front-End Performance Optimization]]
+
+### how to optimize your application for end-users.
+
+### Bundler
+- Webpack
+- Vite
+- 📌[[O-NextJS|NextJS]]
+    - Turbopack
+        - It's faster than Create-React-App
+            - 4x faster cold starts than Webpack
+
+### Compiler (& minification)
+- Babel
+- 📌[[O-NextJS|NextJS]]
+    - Speedy Web Compiler (SWC)
+        - It also uses SWC (Speedy Web Compiler) same as Vite based on Rust which is faster than Babel as a compiler
+            - 10x Faster than Vite
+            - 700x Faster updates than Webpack (Plugins)
+    - Hot Reloading support.
+    - Automatic code splitting and lazy loading.
+
+### 📌[[O-NextJS|NextJS]]
+- Built-in Optimizations for improved UX and Core Web Vitals
+    - Image
+        - Vercel 0G Image Generation
+        - next/image: optimize images on demand
+    - Font
+        - next/font: custom typefaces for your brand
+    - Link
+        - next/link: increase your engagement rate
+    - Script
+
+## 🏷️Scalability
+
+### how your application adapts as your team, data, and traffic grow.
