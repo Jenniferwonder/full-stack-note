@@ -16,7 +16,7 @@ aliases:
 
 # NextJS
 
-## [[S-NextJS]]
+## [S-NextJS](S-NextJS.md)
 
 ### [Learn Next.js | Next.js (nextjs.org)](https://nextjs.org/learn/dashboard-app)
 
@@ -24,7 +24,7 @@ aliases:
 
 ## Intro
 
-### [[NextJS Features (Pros & Cons)]]
+### [NextJS Features (Pros & Cons)](NextJS%20Features%20(Pros%20&%20Cons).md)
 
 ### Next.js is maintained by Vercel.
 - https://vercel.com/
@@ -44,12 +44,12 @@ aliases:
 - `npx create-next-app@latest`
     - a Command Line Interface (CLI) tool that sets up a Next.js application for you
     - Dependencies
-        - ![[Paste image 1701323825262image.png|250]]
+        - ![](Paste%20image%201701323825262image.png)
     - Time
         - 2 mins
 - ✅ created a Next.js application using the starter example
     - `npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"`
-- [[How to start a React, NextJS and TailwindCSS project]]
+- [How to start a React, NextJS and TailwindCSS project](How%20to%20start%20a%20React,%20NextJS%20and%20TailwindCSS%20project)
 
 ### Run the Dev Server
 - `npm run dev`
@@ -65,10 +65,10 @@ aliases:
 - Contains all the routes, components, and logic for your application, this is where you'll be mostly working from.
 - `/app/lib`
     - Contains functions used in your application, such as reusable utility functions and data fetching functions.
-    - ✅[[Front-End Practice#📌Placeholder Data]]
+    - ✅[Front-End Practice > 📌Placeholder Data](Front-End%20Practice#📌Placeholder%20Data)
         - `app/lib/placeholder-data.js`
         - you'll use this data to _seed_ your database (populate it with some initial data).
-    - ✅[[TypeScript]]
+    - ✅[TypeScript](TypeScript.md)
         - `/app/lib/definitions.ts`
             - manually define the types that will be returned from the database
         - By using TypeScript, you can ensure you don't accidentally pass the wrong data format to your components or database
@@ -177,14 +177,14 @@ aliases:
 
 ### ✅Create the `dashboard` routes/pages using file-system routing
 - To create a nested route, you can nest folders inside each other and add *`page.tsx`* files inside them
-    - ![[z-O-NextJS-nested-routing.png]]
+    - ![](z-O-NextJS-nested-routing.png)
 
 ### ✅Create a nested layout that can be shared between multiple dashboard pages
 - benefit of using *layouts* in Next.js
     - 💡Partial rendering
         - only the page components update while the layout won't re-render
         - [partial rendering](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#3-partial-rendering)
-        - ![[z-O-NextJS-partial-rendering.png]]
+        - ![](z-O-NextJS-partial-rendering.png)
 
 ### ✅Understand root layout
 - a [root layout](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#root-layout-required) and is required
@@ -296,7 +296,7 @@ aliases:
 ### Network/ Request waterfalls
 - ❌The data requests are unintentionally blocking each other, creating a *request waterfall*
 - A "waterfall" refers to a sequence of network requests that depend on the completion of previous requests.
-    - ![[z-O-NextJS-waterfall-request.png]]
+    - ![](z-O-NextJS-waterfall-request.png)
 
 ### Parallel data fetching using a JavaScript Pattern
 - In JavaScript, you can use the [`Promise.all()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) or [`Promise.allSettled()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled) functions to initiate all promises at the same time
@@ -310,7 +310,7 @@ aliases:
 
 ## Rendering ^81b42cce-c8f9-d5a3
 
-### [[NextJS Rendering Methods]]
+### [NextJS Rendering Methods](NextJS%20Rendering%20Methods.md)
 
 ### Static Rendering
 - What
@@ -351,7 +351,7 @@ aliases:
         - works well with React's component model, as each component can be considered a _chunk_
         - Chunks are rendered in parallel, reducing the overall load time
     - can prevent slow data requests from blocking your whole page
-        - ![[z-O-NextJS-streaming.png]]
+        - ![](z-O-NextJS-streaming.png)
 - How
     - At the page level, with the `loading.tsx` file
         - ✅In the `/app/dashboard` folder, create a new file called `loading.tsx`
@@ -468,7 +468,7 @@ aliases:
     - Use forms with Server Actions
         - In React, you can use the `action` attribute in the `<form>` element to invoke actions
         - The action will automatically receive the native [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) object, containing the captured data
-            - ![[z-O-NextJS-server-actions.png]]
+            - ![](z-O-NextJS-server-actions.png)
         - ⚡Benefit
             - progressive enhancement - forms work even if JavaScript is disabled on the client
         - ⚡Server Actions integrated with Next.js [caching](https://nextjs.org/docs/app/building-your-application/caching)
@@ -779,7 +779,7 @@ aliases:
             - When the content changes (e.g. when a user corrects an error), the screen reader will announce these changes, but only when the user is idle so as not to interrupt them
     - run `npm run lint` to check if you're using the aria labels correctly
 
-## 📌[[Authentication]] ^73d022d2-4f12-e67c
+## 📌[Authentication](Authentication.md) ^73d022d2-4f12-e67c
 
 ### 💡How to add authentication to your application using [`NextAuth.js`](https://next-auth.js.org/) and Middleware.
 
@@ -990,4 +990,4 @@ aliases:
 ### Environment Variables
 - [Basic Features: Environment Variables | Next.js](https://nextjs.org/docs/basic-features/environment-variables)
 
-## 🐛[[BugPack_NextJS]]
+## 🐛[BugPack_NextJS](BugPack_NextJS)

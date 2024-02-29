@@ -15,7 +15,7 @@ sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 273
 ---
-- Up:: [[Back-End Basics]]
+- Up:: [Back-End Basics](Back-End%20Basics)
 ## Server-Side Framework
 
 - DX-developer experience
@@ -38,7 +38,7 @@ sr-ease: 273
 
 ## Server-Side Framework Choices
 
-![[zz-assets/Pasted image 20230308194505.png]]
+![](zz-assets/Pasted%20image%2020230308194505.png)
 
 - Go Gin [https://gin-gonic.com/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTAzakYtRWZjRElhaVlkcmdfMzh0bUNHcHF5QXxBQ3Jtc0trVmxodWhiM004X3MxbmlGdFZiVlNzN2IwQzgyUDJqdzBMU2FRZTZ3M0JLSVFPWDh3T01hOUVoTGRHYUd2c2ZWdzB2VFduS3RsZFVMU0swU2hubTJReUV4VS14NTlYbktGMzdySV85ckFpSFJfT090OA&q=https%3A%2F%2Fgin-gonic.com%2F&v=FQPlEnKav48)
 - Swift Vapor [https://vapor.codes/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkdFa2xHb3J4UEphMzloQVZRbUltZ2NwbnlXQXxBQ3Jtc0ttVG5uMndsWjFYTjZwR0FVc0NMUktmLTlsYktlNG9VYmRHVnBZWFZJbU1pUi0zSHhsSUthWkdsSnptSmJORTJwekhsYTA5VU1ZT24xUkRJbnBmVVBLTVlsSFYzaDVrdVVEZHVjbjdsSXFhZzZLd0F1MA&q=https%3A%2F%2Fvapor.codes%2F&v=FQPlEnKav48)

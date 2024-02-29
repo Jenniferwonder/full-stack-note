@@ -34,7 +34,7 @@ Comment:
 	- ESM module in TS
 	- support your existing framework
 	- stricter type-checking and autocompletion in your editor
-- 🏷️[[Write Stories]]
+- 🏷️[Write Stories](Write%20Stories.md)
 ### To include addons
 - `'@storybook/addon-a11y',`
 - Accessibility

@@ -73,7 +73,7 @@ mindmap-plugin: basic
 - vimtex-compile-output
     - `\lo`
 - 📌`:help vimtex-compiler`
-- ![[z-Assets/Paste image 1699347019386image.png]]
+- ![](z-Assets/Paste%20image%201699347019386image.png)
     - https://tex.stackexchange.com/questions/253546/latex-error-file-filename-cls-not-found
 - PDF Sync (forward and backward)
     - Jump from .tex source code to PDF viewer
@@ -92,7 +92,7 @@ mindmap-plugin: basic
 - `K`
 
 ### Cheatsheet
-- ![[z-Assets/Paste image 1699585348091image.png]]
+- ![](z-Assets/Paste%20image%201699585348091image.png)
 
 ## Vimtex (Neovim) Use
 
@@ -110,17 +110,17 @@ mindmap-plugin: basic
 - `csc`
     - Change surrounding commands
     - Change boldface text to italic text
-        - ![[z-Assets/Paste image 1699325233557image.png]]
+        - ![](z-Assets/Paste%20image%201699325233557image.png)
 - `tsc`
     - Toggle starred commands
-    - ![[z-Assets/Paste image 1699325536210image.png]]
+    - ![](z-Assets/Paste%20image%201699325536210image.png)
 
 ### Surrounding delimiters
 - `dsd`
     - Delete surrounding delimiters (e.g. (), [], {}, and any of their \left \right, \big \big variants)
 - `csd`
     - Change surrounding delimiters
-    - ![[z-Assets/Paste image 1699324820294image.png]]
+    - ![](z-Assets/Paste%20image%201699324820294image.png)
 - `tsd`
     - Toggle surrounding delimiters
 
@@ -129,10 +129,10 @@ mindmap-plugin: basic
     - Delete surrounding math
 - `cs$`
     - Change surrounding math
-    - ![[z-Assets/Paste image 1699324977116image.png]]
+    - ![](z-Assets/Paste%20image%201699324977116image.png)
 - `ts$`
     - Toggle between inline and display math
-    - ![[z-Assets/Paste image 1699325587717image.png]]
+    - ![](z-Assets/Paste%20image%201699325587717image.png)
 
 ### Toggle style
 - `tsf`

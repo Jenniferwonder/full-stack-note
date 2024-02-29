@@ -56,15 +56,15 @@ status:
 ### create-next-app vs create-vite?
 - https://stackoverflow.com/questions/75492238/difference-in-using-create-vitelatest-vs-create-next-app-vs-create-react-app
 
-## 📌 [[O-NextJS]]
+## 📌 [O-NextJS](O-NextJS.md)
 
-## 📌 [[O-Remix]]
+## 📌 [O-Remix](O-Remix.md)
 
-## 📌 [[O-Gatsby]]
+## 📌 [O-Gatsby](O-Gatsby.md)
 
-## 📌 [[O-Astro]]
+## 📌 [O-Astro](O-Astro)
 
-## 📌 [[O-Quick]]
+## 📌 [O-Quick](O-Quick)
 
 ## 📌 Expo (for native apps)
 

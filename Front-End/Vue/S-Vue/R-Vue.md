@@ -5,7 +5,7 @@ tags: Vue
 DateStarted: 2023-07-07
 DateModified: 2023-12-01
 ---
-[[T-Vue]]
+[T-Vue](T-Vue.md)
 #### 3. Resources
 - [How not to Vue. A list of bad things I’ve found on my… | by Anton Kosykh | ITNEXT](https://itnext.io/how-not-to-vue-18f16fe620b5)
 	- 任何技术都有坑，了解 Vue 的短板，你就能扬长避短，就能用得更好。

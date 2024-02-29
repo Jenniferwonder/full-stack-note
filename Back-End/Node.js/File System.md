@@ -5,11 +5,12 @@ tags:
   - NodeJS
 DateStarted: 2024-01-26
 DateModified: 2024-01-26
-DateDo: 
-DateDone: 
-DateDue: 
+DateDo:
+DateDone:
+DateDue:
 status:
 ---
+
 ## File System
 
 Built-in file system module called `fs`, which can read, write and delete files on the file system among other things, and it can also do things in a blocking or non-blocking way.
@@ -21,13 +22,13 @@ We can read a text file in Node by simply passing the path to that file and we'l
 
 #### Blocking
 
-- ![[Pasted image 20230301100205.png]]
+- ![](z-Assets/Pasted%20image%2020230301100205.png)
 
 #### Non-Blocking
 
 - Tip1: Use Callback
-  - ![[Pasted image 20230301100308.png]]
+  - ![](z-Assets/Pasted%20image%2020230301100308.png)
 - Tip 2: Use Promise-based solutions
   - Import `readFile` from the `promises` namespace, which gives us a function returning a promise when called
-  - ![[Pasted image 20230301100827.png]]
-  - ![[Pasted image 20230301100907.png]]
+  - ![](z-Assets/Pasted%20image%2020230301100827.png)
+  - ![](z-Assets/Pasted%20image%2020230301100907.png)

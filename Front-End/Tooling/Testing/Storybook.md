@@ -25,10 +25,10 @@ status:
 	- [Storybook 7 Crash Course - React Typescript (youtube.com)](https://www.youtube.com/watch?v=CuGZgYo6-XY)
 	- [01 Course presentation — Modern Component Library w/ React & Storybook - YouTube](https://www.youtube.com/watch?v=21iHNxVlfvw&list=PLKBvDYynKmlWa59k8pnw-EHac2_miPagh)
 
-## [[Why Storybook]]
-## [[Install & Run Storybook]]
-## [[Config Storybook]]
-### [[Write Stories]]
+## [Why Storybook](Why%20Storybook.md)
+## [Install & Run Storybook](Install%20&%20Run%20Storybook.md)
+## [Config Storybook](Config%20Storybook.md)
+### [Write Stories](Write%20Stories.md)
 
 ## Data
 

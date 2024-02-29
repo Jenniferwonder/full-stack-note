@@ -59,8 +59,8 @@ mindmap-plugin: basic
 - [docs](https://github.com/jdhao/nvim-config/tree/master/docs)
 
 ### Related notes
-- [[Windows]]
-- [[Linux]]
+- [Windows](Windows.md)
+- [Linux](Linux)
     - Ubuntu
         - 以管理员身份进入系统/ 重置密码
             - https://blog.csdn.net/zhengxiangwen/article/details/50625986
@@ -77,7 +77,7 @@ mindmap-plugin: basic
 
 ### Install dependencies for Nvim
 - Python
-    - 🐛✅[[Debug Neovim can't load Python, even though everything is installed. 1]]
+    - 🐛✅[Debug Neovim can't load Python, even though everything is installed. 1](Debug%20Neovim%20can't%20load%20Python,%20even%20though%20everything%20is%20installed.%201.md)
 - Ctags
     - https://askubuntu.com/questions/796408/installing-and-using-universal-ctags-instead-of-exuberant-ctags/836521#836521
 - Ripgrep
@@ -92,7 +92,7 @@ mindmap-plugin: basic
     - https://www.nerdfonts.com/font-downloads
 - Linter
     - vint: a vim linter
-        - 🐛[[Vint-Debug]]
+        - 🐛[Vint-Debug](Vint-Debug.md)
     - [GitHub - Vimjas/vint: Fast and Highly Extensible Vim script Language Lint implemented in Python.](https://github.com/Vimjas/vint)
 - VCS Tools
     - 🐛`:checkhealth` > No valid vcs tools
@@ -117,7 +117,7 @@ mindmap-plugin: basic
         - On ubuntu > *%HOME%/.bash_profile*
             - Add `export PATH="$HOME/nvim-linux64/bin:$PATH"`
 - Check Neovim version
-    - ![[z-Assets/Paste image 1699077593916image.png]]
+    - ![](z-Assets/Paste%20image%201699077593916image.png)
 - Update Neovim
     - on windows
         - On windows cmd (admin)
@@ -149,7 +149,7 @@ mindmap-plugin: basic
     - `:pi`
         - to install plugins
     - https://jdhao.github.io/2023/09/02/from_packer_to_lazy_nvim/
-- [[Vim-plug]]
+- [Vim-plug](Vim-plug.md)
     - Neovim plugin manager
 
 ### Structure
@@ -209,7 +209,7 @@ mindmap-plugin: basic
                 - Reference
                     - https://github.com/gelguy/wilder.nvim
                 - Config
-                    - 🐛[[wilder_python-vim cmd auto-complete]]
+                    - 🐛[wilder_python-vim cmd auto-complete](wilder_python-vim%20cmd%20auto-complete.md)
                         - `:checkhealth`
                 - Use
                     - `TAB` to cycle options
@@ -222,17 +222,17 @@ mindmap-plugin: basic
 - `./spell`
     - word reference for spell checking
 
-## ⭐[[Vim Basic commands]]
+## ⭐[Vim Basic commands](Vim%20Basic%20commands.md)
 
 ### Reference
 - Vim - Vi Improved - by Steve Oualline
 - [Surviving Your First Week | Online Video Tutorial by thoughtbot](https://thoughtbot.com/upcase/videos/onramp-to-vim-surviving-your-first-week)
 - http://iccf-holland.org/click5.html
 - [Basic commands for using VIM editor like a Pro](https://iq.opengenus.org/basic-commands-for-vim-editor/)
-- [[简明 Vim 练级攻略  酷 壳 - CoolShell]]
-- [[无插件Vim编程技巧  酷 壳 - CoolShell]]
-- [[YBlog - Learn Vim Progressively]]
-- [[YBlog - Vim as IDE]]
+- [简明 Vim 练级攻略  酷 壳 - CoolShell](简明%20Vim%20练级攻略%20%20酷%20壳%20-%20CoolShell)
+- [无插件Vim编程技巧  酷 壳 - CoolShell](无插件Vim编程技巧%20%20酷%20壳%20-%20CoolShell)
+- [YBlog - Learn Vim Progressively](YBlog%20-%20Learn%20Vim%20Progressively)
+- [YBlog - Vim as IDE](YBlog%20-%20Vim%20as%20IDE)
 
 ## For Navigation
 
@@ -250,9 +250,9 @@ mindmap-plugin: basic
             - https://github.com/kevinhwang91/nvim-hlslens
         - 🐛Bug
             - Press `n` at the home menu in Nvim
-                - ![[z-Assets/Paste image 1699255052203image.png]]
+                - ![](z-Assets/Paste%20image%201699255052203image.png)
             - When first activate search
-                - ![[z-Assets/Paste image 1699259389091image.png]]
+                - ![](z-Assets/Paste%20image%201699259389091image.png)
 - Tags navigation
     - vista
 
@@ -274,11 +274,11 @@ mindmap-plugin: basic
 ### File manager
 - ✅nvim-tree.lua
 - Neotree
-- [[Nerdtree]]
+- [Nerdtree](Nerdtree.md)
 
-## For [[LaTeX]]
+## For [LaTeX](LaTeX)
 
-### ⭐[[LaTeX editing and previewing (Neovim)]]
+### ⭐[LaTeX editing and previewing (Neovim)](LaTeX%20editing%20and%20previewing%20(Neovim).md)
 
 ### LaTeX Config
 - Related Files
@@ -290,7 +290,7 @@ mindmap-plugin: basic
         - Pre-installation
             - https://www.tug.org/texlive/quickinstall.html#running
         - Post-installation
-            - ![[z-Assets/Paste image 1699709125337image.png]]
+            - ![](z-Assets/Paste%20image%201699709125337image.png)
             - Add to path
                 - https://tex.stackexchange.com/questions/456243/what-is-the-easiest-way-to-set-path-of-updatednew-version-texlive-installation
     - Plugin
@@ -310,7 +310,7 @@ mindmap-plugin: basic
                 - `cmd /c start /min "" nvim -headless -c "VimtexInverseSearch %l '&f'"`
     - Zathura
         - Shortcut
-            - ![[z-Assets/Paste image 1699856166701image.png]]
+            - ![](z-Assets/Paste%20image%201699856166701image.png)
             - Inverse color
                 - `CTRL R`
         - Command reference

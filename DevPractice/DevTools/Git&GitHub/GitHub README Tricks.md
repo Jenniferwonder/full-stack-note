@@ -10,7 +10,7 @@ sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 273
 ---
-- Up:: [[DevTools]]
+- Up:: [DevTools](DevTools.md)
 [GitHub Markdown Tricks 🐙 | Alicia's Notes 🚀 — Thankful to be ...](https://notes.aliciasykes.com/36402/github-markdown-tricks)  
 创作时间：2022 年 10 月 31 日
 

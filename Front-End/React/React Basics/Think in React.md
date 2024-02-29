@@ -13,17 +13,17 @@ mindmap-plugin: basic
 
 ## Case
 
-### 📌[[ProductTableApp]]
+### 📌[ProductTableApp](ProductTableApp.md)
 
 ## React vs. JS
 
 ### JS
 - Imperative
-    - ![[z-Assets/Paste image 1701516791954image.png|250]]
+    - ![](z-Assets/Paste%20image%201701516791954image.png)
 
 ### React
 - Declarative
-    - ![[z-Assets/Paste image 1701516813982image.png|250]]
+    - ![](z-Assets/Paste%20image%201701516813982image.png)
 
 ## Step 1: **Break the UI** into a component hierarchy
 

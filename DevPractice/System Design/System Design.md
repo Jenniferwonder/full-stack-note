@@ -22,7 +22,7 @@ mindmap-plugin: basic
 
 ### [System Design Course for Beginners - YouTube](https://www.youtube.com/watch?v=MbjObHmDbZo)
 
-### 📌[[Distributed System Design-分布式技术架构]]
+### 📌[Distributed System Design-分布式技术架构](Distributed%20System%20Design-分布式技术架构.md)
 
 ## Client-Server Model
 
@@ -61,7 +61,7 @@ mindmap-plugin: basic
 
 ### Browser receives the server's response and renders HTML on the page
 
-## ⭐[[Network Protocols-网络协议]]
+## ⭐[Network Protocols-网络协议](Network%20Protocols-网络协议)
 
 ### IP
 
@@ -75,19 +75,19 @@ mindmap-plugin: basic
 
 ## Availability
 
-## [[Caching]]
+## [Caching](Caching.md)
 
 ## Proxies
 
-## [[Load Balancing]]
+## [Load Balancing](Load%20Balancing.md)
 
 ## Hashing
 
-## [[Database]]
+## [Database](Database.md)
 
-### [[Database Scaling and Design]]
+### [Database Scaling and Design](Database%20Scaling%20and%20Design.md)
 
-### [[SQL DB]]
+### [SQL DB](SQL%20DB.md)
 
 ### Key-Value Stores
 
@@ -113,6 +113,6 @@ mindmap-plugin: basic
 
 ## Security and HTTPs
 
-## [[API Design]]
+## [API Design](API%20Design.md)
 
-## [[Design a YouTube Clone]]
+## [Design a YouTube Clone](Design%20a%20YouTube%20Clone.md)

@@ -11,7 +11,7 @@ DateDone:
 DateDue: 
 status:
 ---
-## [[Database]] Scaling and Design
+## [Database](Database.md) Scaling and Design
 
 Performance bottleneck  
 Read heavy, around 95%+

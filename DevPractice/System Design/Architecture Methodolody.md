@@ -9,11 +9,11 @@ status:
 
 ## Overview
 
-![[Pasted image 20230308083747.png]]
+![](z-Assets/Pasted%20image%2020230308083747.png)
 
 ## Basics
 
-[Getting the Basics - Software Architecture Introduction (part 1) - YouTube](https://www.youtube.com/watch?v=8UlLgOf20Ho)
+[Getting the Basics - Software Architecture Introduction (part 1) - YouTube](z-Assets/https://www.youtube.com/watch?v=8UlLgOf20Ho)
 
 ### Functional Requirements
 
@@ -43,11 +43,11 @@ status:
 
 ## Functional Architecture
 
-[The Benefits of Functional Architectures | Systems Engineering, Part 3 - YouTube](https://www.youtube.com/watch?v=UTm1ORuZ1dg)
-![[Pasted image 20230308091015.png]]
+[The Benefits of Functional Architectures | Systems Engineering, Part 3 - YouTube](z-Assets/https://www.youtube.com/watch?v=UTm1ORuZ1dg)
+![](z-Assets/Pasted%20image%2020230308091015.png)
 
 ### Function Decomposition
 
 - Verb-Noun Pairing
-  - ![[Pasted image 20230308091126.png]]
+  - ![](z-Assets/Pasted%20image%2020230308091126.png)
 - Back and forth between engineering team and stakeholders (Needs under speficified)

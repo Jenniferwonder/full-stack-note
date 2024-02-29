@@ -20,7 +20,7 @@ Comment:
 # Vue 异步更新 (Event loop 与 Vue nextTick)
 ### Reference
 - [Vue 异步更新 - nextTick 为什么要 microtask 优先](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fqingzhou729%2Fstudy%2Fissues%2F15 "https://github.com/qingzhou729/study/issues/15")
-- 🏷️[[Event Loop-事件循环]]
+- 🏷️[Event Loop-事件循环](Event%20Loop-事件循环)
 
 #### vue nextTick 为什么要优先使用微任务实现？
 

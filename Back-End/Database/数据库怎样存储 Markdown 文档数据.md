@@ -12,7 +12,7 @@ DateModified: 2023-12-02
 ---
 # 数据库怎样存储 Markdown 文档数据
 ## Related
-- [[Vuepress 2]]
+- [Vuepress 2](Vuepress%202)
 ## Intro
 存储 Markdown 文档数据通常涉及两个主要方面：文本内容和元数据。Markdown 文档是纯文本，但在数据库中存储时，你通常需要考虑如何保存格式和结构。以下是一些建议：
 

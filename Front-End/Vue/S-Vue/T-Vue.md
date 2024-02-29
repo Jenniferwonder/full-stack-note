@@ -23,4 +23,4 @@ DateModified: 2023-12-01
 	- 了解 Vue 的一些比较优秀的特性。
 - [Vue on 2018 — Interview with Evan You, author of the Vue.js framework | by Liesbeth Hermans | Hackages Blog](https://blog.hackages.io/https-blog-hackages-io-evanyoubhack2017-cc5559806157?gi=dd7ede3efeff)
 	- 当中有很多故事以及对 Vue 的展望
-- ![[zz-assets/Pasted image 20230308093800.png|450]]
+- ![](zz-assets/Pasted%20image%2020230308093800.png)

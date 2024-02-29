@@ -24,16 +24,16 @@ mindmap-plugin: basic
 
 ### https://blog.logrocket.com/modern-guide-react-state-patterns/#usestate-hook
 
-## 🏷️[[React Client and Server Components]]
+## 🏷️[React Client and Server Components](React%20Client%20and%20Server%20Components.md)
 
-## 🏷️[[Event Update]]
+## 🏷️[Event Update](Event%20Update.md)
 
-## 🏷️[[React State Structure]]
+## 🏷️[React State Structure](React%20State%20Structure.md)
 
-## 🏷️[[Share State (React Props)]]
+## 🏷️[Share State (React Props)](Share%20State%20(React%20Props).md)
 
-## 🏷️[[Preserve-Reset State]]
+## 🏷️[Preserve-Reset State](Preserve-Reset%20State.md)
 
-## 🏷️[[Reducer]]
+## 🏷️[Reducer](Reducer.md)
 
-## 🏷️[[React Lib for State Management]]
+## 🏷️[React Lib for State Management](React%20Lib%20for%20State%20Management.md)

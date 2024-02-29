@@ -17,7 +17,7 @@ mindmap-plugin: basic
 
 ### team’s experience building and maintaining your application.
 
-### [[TypeScript]]
+### [TypeScript](TypeScript.md)
 
 ## 🏷️UI
 
@@ -26,10 +26,10 @@ mindmap-plugin: basic
 
 ### Front-End Frameworks
 - HTML in JS
-    - 📌[[O-React|React]]
+    - 📌[React](O-React.md)
 - JS in HTML
-    - 📌[[O-Vue|Vue]]
-    - 📌[[O-Svelte|Svelte]]
+    - 📌[Vue](O-Vue.md)
+    - 📌[Svelte](O-Svelte.md)
 
 ### UI Styling
 - 📌HTML
@@ -47,17 +47,17 @@ mindmap-plugin: basic
 - React Component Lib
     - Styled-JSX
     - 📌Use  Component Lib
-    - 🏷️[[Create & Publish Component Library (React)]]
+    - 🏷️[Create & Publish Component Library (React)](Create%20&%20Publish%20Component%20Library%20(React).md)
 - Vue Component Lib
 - Svelte Component Lib
 
-## 🏷️[[Component-Driven Development]]
+## 🏷️[Component-Driven Development](Component-Driven%20Development.md)
 
-### [[Project-Init]]
+### [Project-Init](Project-Init.md)
 
-### [[Testing]]
+### [Testing](Testing.md)
 
-### [[Compilers and Bundlers]]
+### [Compilers and Bundlers](Compilers%20and%20Bundlers.md)
 
 ## 📌Placeholder Data
 
@@ -65,13 +65,13 @@ mindmap-plugin: basic
 
 ### Use a 3rd party service like [mockAPI](https://mockapi.io/).
 
-## 🏷️[[Routing]]
+## 🏷️[Routing](Routing.md)
 
 ### how users navigate between different parts of your application.
 
 ### React Router Dom
 
-### 📌[[O-NextJS|NextJS]]
+### 📌[NextJS](O-NextJS.md)
 - Advanced Routing & Nested Layouts
     - Directory based routing system
         - *React Router Dom* is not needed with Next.js
@@ -88,16 +88,16 @@ mindmap-plugin: basic
     - Take control of incoming request
     - Use code to define routing and access rules for authentication, experimentation, and internationalization
 
-## 🏷️[[Data Fetching]]
+## 🏷️[Data Fetching](Data%20Fetching)
 
 ### where your data lives and how to get it.
 
 ### React Query
 
-### 📌[[O-NextJS|NextJS]]
+### 📌[NextJS](O-NextJS.md)
 - Make React component async and await your data
     - Now we can totally get rid of things like `getStaticProps`, and `getServerSideProps` , instead we can write a plain JS function uses `fetch` (`async function...await`) and `await` the result of that function directly in a component, no need to pass props back and forth between client and server.
-        - ![[Pasted image 20230227195806.png]]
+        - ![](Pasted%20image%2020230227195806.png)
 - Support both client and server data fetching
 
 ## 🏷️Rendering
@@ -113,7 +113,7 @@ mindmap-plugin: basic
 
 ### SSG
 - Static Site Generation
-- 📌[[SSG Frameworks]]
+- 📌[SSG Frameworks](SSG%20Frameworks.md)
 
 ### SSR
 - Server Side Rendering
@@ -124,7 +124,7 @@ mindmap-plugin: basic
 - Incremental Static Regeneration
 - 动态渲染
 
-### 📌[[O-NextJS|NextJS]]
+### 📌[NextJS](O-NextJS.md)
 - Client and Server Rendering
     - Supports *ISR, SSR, SSG* - the new mental model revolves entirely around caching
 - React Server Components
@@ -138,16 +138,16 @@ mindmap-plugin: basic
 
 ### CMS
 
-### [[Authentication]]
+### [Authentication](Authentication.md)
 
 ### Payments
 
-### [[User Analytics]]
-- [[三方服务——访问统计与分析]]
+### [User Analytics](User%20Analytics.md)
+- [三方服务——访问统计与分析](三方服务——访问统计与分析.md)
 
-### [[三方服务——评论功能]]
+### [三方服务——评论功能](三方服务——评论功能.md)
 
-### 📌[[O-NextJS|NextJS]]
+### 📌[NextJS](O-NextJS.md)
 - Route Handlers
     - Build API endpoints to securely connect with 3rd party services and consume from your frontend
 
@@ -155,7 +155,7 @@ mindmap-plugin: basic
 
 ### where you deploy, store, and run your application code
 
-### [[Deploying]]
+### [Deploying](Deploying)
 - Vercel
 - Netlify
 
@@ -167,23 +167,23 @@ mindmap-plugin: basic
 
 ### NodeJS
 
-### [[代理-Nginx]]
+### [代理-Nginx](代理-Nginx.md)
 
-## 🏷️[[Front-End Performance Optimization]]
+## 🏷️[Front-End Performance Optimization](Front-End%20Performance%20Optimization)
 
 ### how to optimize your application for end-users.
 
 ### Bundler
 - Webpack
 - Vite
-- 📌[[O-NextJS|NextJS]]
+- 📌[NextJS](O-NextJS.md)
     - Turbopack
         - It's faster than Create-React-App
             - 4x faster cold starts than Webpack
 
 ### Compiler (& minification)
 - Babel
-- 📌[[O-NextJS|NextJS]]
+- 📌[NextJS](O-NextJS.md)
     - Speedy Web Compiler (SWC)
         - It also uses SWC (Speedy Web Compiler) same as Vite based on Rust which is faster than Babel as a compiler
             - 10x Faster than Vite
@@ -191,7 +191,7 @@ mindmap-plugin: basic
     - Hot Reloading support.
     - Automatic code splitting and lazy loading.
 
-### 📌[[O-NextJS|NextJS]]
+### 📌[NextJS](O-NextJS.md)
 - Built-in Optimizations for improved UX and Core Web Vitals
     - Image
         - Vercel 0G Image Generation

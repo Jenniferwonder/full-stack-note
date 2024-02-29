@@ -8,8 +8,8 @@ sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 276
 ---
-- Up:: [[DevTools]]
-- Related:: [[PKM]]
+- Up:: [DevTools](DevTools.md)
+- Related:: [PKM](PKM)
 ## 重装系统
 
 1. 换新机软件安装：

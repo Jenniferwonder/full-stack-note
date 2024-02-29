@@ -26,16 +26,16 @@ mindmap-plugin: basic
 ## Preserve State
 
 ### Same component at the same position preserves state
-- 📌[[FancyCounter]]
+- 📌[FancyCounter](FancyCounter.md)
 
 ## Reset State
 
 ### Different components at the same position reset state
-- 📌[[PauseCounter]]
+- 📌[PauseCounter](PauseCounter.md)
 
 ### Reset state with the same components
 - Op1. Rendering a component in different positions
-    - 📌[[ScoreBoard]]-A
+    - 📌[ScoreBoard](ScoreBoard.md)-A
 - Op2. Resetting state with a key
-    - 📌[[ScoreBoard]]-B
-    - 📌[[ChatForm]]
+    - 📌[ScoreBoard](ScoreBoard.md)-B
+    - 📌[ChatForm](ChatForm.md)

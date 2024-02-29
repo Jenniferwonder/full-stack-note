@@ -25,14 +25,14 @@ mindmap-plugin: basic
 - Some API required authentication to use their service.
 
 ## API Patterns
-### [[REST API]]
+### [REST API](REST%20API.md)
 
-### [[RPC APIs]]
+### [RPC APIs](RPC%20APIs.md)
 
-### [[GraphQL]]
+### [GraphQL](GraphQL.md)
 
 
-## [[API Resources]]
+## [API Resources](API%20Resources.md)
 
 
 

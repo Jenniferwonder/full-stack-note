@@ -45,17 +45,17 @@ mindmap-plugin: basic
 
 ### Case-3-`&&`
 
-### 📌*[[Conditional]]*
+### 📌*[Conditional](Conditional.md)*
 
 ## Render Lists
 
 ### `.map()` method
 
 ### `.filter()`
-- 📌[[FilterList]]
-- 📌[[ProductTableApp]]
+- 📌[FilterList](FilterList.md)
+- 📌[ProductTableApp](ProductTableApp.md)
 
 ### `key`
 - `<li>` has a `key` attribute. For each item in a list, you should pass a string or a number that uniquely identifies that item among its siblings.
 
-### 📌*[[Lists]]*
+### 📌*[Lists](Lists.md)*

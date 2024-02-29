@@ -25,9 +25,9 @@ status:
 #### (Optional) 
 - [create-react-library - npm (npmjs.com)](https://www.npmjs.com/package/create-react-library)
 	- `npx create-react-library my-react-library`
-- 🏷️[[Project-Init]]
+- 🏷️[Project-Init](Project-Init.md)
 ## Config TypeScript
-- 🏷️[[TypeScript]]
+- 🏷️[TypeScript](TypeScript.md)
 - Create `tsconfig.json`
 ```ts
 "skipLibCheck": true /* Skip type checking all .d.ts files. */,
@@ -41,7 +41,7 @@ status:
 "emitDeclarationOnly": true
 ```
 ## Develop your React components 
-> [[O-React|React]]
+> [React](O-React.md)
 - Create `index.ts` in each component directory
 ```ts
 export { default } from "./Button";
@@ -49,7 +49,7 @@ export { default as Button } from "./Button";
 export * from "./components";
 ```
 ## Testing
-> 🏷️[[Testing]] -->🏷️[[Storybook]] --> 🏷️[[Cypress]] / [[Jest]]/ [[React Testing Library]]
+> 🏷️[Testing](Testing.md) -->🏷️[Storybook](Storybook.md) --> 🏷️[Cypress](Cypress.md) / [Jest](Jest)/ [React Testing Library](React%20Testing%20Library)
 ### Jest & Babel
 > [Configuring Jest · Jest](https://jestjs.io/docs/configuration#testenvironment-string)
 #### Install Jest
@@ -81,7 +81,7 @@ testEnvironment: "jsdom",
 	- [javascript - Upgrading Jest to v29 - Error Test environment jest-environment-jsdom cannot be found - Stack Overflow](https://stackoverflow.com/questions/72013449/upgrading-jest-to-v29-error-test-environment-jest-environment-jsdom-cannot-be)
 
 ##### non-JS module 识别问题
-![[z-jest-config-bug.png|225]]
+![](z-jest-config-bug.png)
 
 >`npm install -D identity-obj-proxy`
 
@@ -107,7 +107,7 @@ moduleNameMapper: {
 - 💡to document your components and generate a live style guide
     - [Learn React Styleguidist | React Styleguidist (react-styleguidist.js.org)](https://react-styleguidist.js.org/learn)
 ## Compilers and Bundlers
->[[Compilers and Bundlers]]
+>[Compilers and Bundlers](Compilers%20and%20Bundlers.md)
 >[为什么说rollup比webpack更适合打包库 - 知乎](https://zhuanlan.zhihu.com/p/340255085)
 >[打包工具 rollup.js 入门教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2022/05/rollup.html)
 
@@ -149,7 +149,7 @@ npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 	- [rollup.config.js](file:///e%3A/SynologyDrive/Codespace/full-stack/front-end/component-dev-practice/react-component-lib/rollup.config.js)
 - Add plugin to support css file
 	- `import postcss from "rollup-plugin-postcss";`
-	- npm install the plugin: [[Create & Publish Component Library (React)#^y1ky13]]
+	- npm install the plugin: [Create & Publish Component Library (React) > ^y1ky13](Create%20&%20Publish%20Component%20Library%20(React)#^y1ky13)
 ## Package management 
 ### Update `package.json`
 - metadata + scripts
@@ -176,7 +176,7 @@ npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 - Package versioning and update
     - Semantic versioning
     - Publish updates
-- 🏷️[[O-NodeJS]]
+- 🏷️[O-NodeJS](O-NodeJS.md)
 ### Opt-2: Publish to GitHub & Install with NPM
 #### Create a git repo
 > If you want to build a library for internal use, create a private repo
@@ -195,7 +195,7 @@ registry=https://registry.npmjs.org/
 #### Generate GitHub Tokens
 - https://github.com/settings/tokens
 - Select permission
-	- ![[z-GitHub-Token-Permission.png|575]]
+	- ![](z-GitHub-Token-Permission.png)
 - Token for my-react-component-lib (2024-02-28, 7 days)
 	- `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`
 #### Publish Lib
@@ -207,10 +207,10 @@ registry=https://registry.npmjs.org/
 - import and use components in your projects
 ### Consume a private library 
 - Get the Token with permission needed
-- create an `.npmrc` file same as that of the library: [[Create & Publish Component Library (React)#Create npmrc file]]
+- create an `.npmrc` file same as that of the library: [Create & Publish Component Library (React) > Create npmrc file](Create%20&%20Publish%20Component%20Library%20(React)#Create%20npmrc%20file)
 - install the package: `npm install @jenniferwonder/my-react-component-lib` ^4nn4c5
 ### Consume a public library
-- [[Create & Publish Component Library (React)#^4nn4c5]]
+- [Create & Publish Component Library (React) > ^4nn4c5](Create%20&%20Publish%20Component%20Library%20(React)#^4nn4c5)
 
 ## CI-CD
 ## Design Tokens to the reuse

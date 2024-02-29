@@ -8,7 +8,7 @@ sr-interval: 4
 sr-ease: 276
 DateModified: 2023-12-01
 ---
-- Up:: [[DevTools]]
+- Up:: [DevTools](DevTools.md)
 
 ### 如何修改 Win 11 系统默认字体？
 

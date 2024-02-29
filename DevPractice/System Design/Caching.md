@@ -12,12 +12,11 @@ When you cache something, you take data that would normally be stored on a hard 
   - Pre-calculate and cache data
   - Most apps have more reads than writes, perfect for caching
 - Save money  
-  ![[Pasted image 20230315171153.png]]
-
+  ![](z-Assets/Pasted%20image%2020230315171153.png)
 
 ### Caching Layers
 
-![[Pasted image 20230315172151.png]]
+![](z-Assets/Pasted%20image%2020230315172151.png)
 
 #### DNS
 
@@ -31,16 +30,18 @@ When you cache something, you take data that would normally be stored on a hard 
 #### Application
 
 #### Database
+
 - Cache sits in front of DB to handle serving content
 - Can't cache everything (Dynamic data)
 - Tools
-	- Redis
-	- Memcached
+  - Redis
+  - Memcached
+
 #### Distributed Cache
 
 - Has built-in functionality to replicate data , shared data across servers, and locate proper server for each key
 - Replication
-- ![[Pasted image 20230315172830.png]]
+- ![](z-Assets/Pasted%20image%2020230315172830.png)
 
 ### Cache Eviction
 

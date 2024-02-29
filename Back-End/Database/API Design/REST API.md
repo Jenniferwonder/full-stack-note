@@ -1,19 +1,20 @@
 ---
 Title: REST API
-Type: 
+Type:
 tags:
   - API
   - Database
 DateStarted: 2023-12-27
 DateModified: 2023-12-27
-DateDo: 
-DateDone: 
-DateDue: 
+DateDo:
+DateDone:
+DateDue:
 status:
 ---
+
 ### REST API
 
-![[Pasted image 20230308202339.png]]
+![](z-Assets/Pasted%20image%2020230308202339.png)
 
 - Representational State Transfer
 - Architecture style for designing network application
@@ -49,4 +50,4 @@ status:
 - Archive
 - Deactivate
 - Search
-- ![[Pasted image 20230315162159.png]]
+- ![](z-Assets/Pasted%20image%2020230315162159.png)

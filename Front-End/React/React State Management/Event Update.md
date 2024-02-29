@@ -27,34 +27,34 @@ mindmap-plugin: basic
 ## Respond to Events/ Inputs
 
 ### `onClick={handleClick}`
-- 📌[[Click]]
-- 📌[[UpdateClick]]
-- 📌[[RemoveBg]]
-- 📌[[Gallery]]
+- 📌[Click](Click.md)
+- 📌[UpdateClick](UpdateClick.md)
+- 📌[RemoveBg](RemoveBg.md)
+- 📌[Gallery](Gallery.md)
     - Store Boolean as state
     - Conditional rendering
     - `handleNextClick(){}`
     - `handleMoreClick(){}`
 
 ### `onSubmit` (Form Handling)
-- 📌[[Quiz]]
+- 📌[Quiz](Quiz.md)
     - `async function`
         - `try {await...} catch (err) {...}`
     - `new Promise((resolve, reject) =>{ })`
         - `setTimeout()`
         - `new Error()`
-- 📌[[EditProfile]]
+- 📌[EditProfile](EditProfile.md)
 
 ### `onChange` (input text & checkbox)
 - `onChange={(e) => onFilterTextChange(e.target.value)}`
 - `onChange={(e) => onInStockOnlyChange(e.target.checked)}`
 - 🏷️Table
-    - 📌[[ProductTableApp]]
-    - 📌[[FilterList]]
-- 📌[[MailSelect]]
+    - 📌[ProductTableApp](ProductTableApp.md)
+    - 📌[FilterList](FilterList.md)
+- 📌[MailSelect](MailSelect.md)
 
 ### `onFocus` & `onPointerMove`
-- 📌[[MailHighlight]] (Highlight & Star)
+- 📌[MailHighlight](MailHighlight.md) (Highlight & Star)
 
 ## Update Screen (Event Handlers)
 
@@ -64,17 +64,17 @@ mindmap-plugin: basic
 
 ### State as a snapshot
 - Setting it does not change the state variable you already have, but instead triggers a re-render.
-    - 📌[[Message]]
+    - 📌[Message](Message.md)
         - State as a snapshot
 
 ### Queueing a series of state updates
 - replacing `setScore(score + 1)` with `setScore(s => s + 1)` fixes the “+3” button.
-    - 📌[[Scores]]
+    - 📌[Scores](Scores.md)
         - Queueing state updates
 
 ### Update objects/ arrays in state
 - use the `...` spread syntax to copy objects and arrays that you want to change.
-    - 📌[[InfoChange]]
+    - 📌[InfoChange](InfoChange.md)
         - Update objects in state
 - Use [Immer](https://github.com/immerjs/use-immer) instead of `useState` in this case to reduce repetitive code.
-    - 📌[[ImmerInfoChange]]
+    - 📌[ImmerInfoChange](ImmerInfoChange.md)

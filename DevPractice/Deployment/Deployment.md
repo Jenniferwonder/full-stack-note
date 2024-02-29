@@ -12,11 +12,11 @@ status:
 - How to deploy a React, Next.js+ Sanity project?
   - Vercel
 - 自动化部署 (部署效率) ...
-- [[SEO]]
-- [[CDN]]
-- [[DNS]]
-- [[Security]]
-- [[Server]]
+- [SEO](SEO)
+- [CDN](CDN)
+- [DNS](DNS)
+- [Security](Security)
+- [Server](Server)
 - Monitor user traffic
 - 图床
 
@@ -48,12 +48,12 @@ Java, Maven
 可以将项目环境和项目代码一起打包成镜像，所有同学都能下载镜像，更容易分发移植
 
 ## 绑定域名
-[[DNS]]
+[DNS](DNS)
 
 ## 跨域问题解决
 
 
-## [[CI-CD]]
+## [CI-CD](CI-CD.md)
 
 - GitHub Actions (Auto Deploy)
 - CI- Continuous Integration

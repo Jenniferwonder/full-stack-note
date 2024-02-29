@@ -22,7 +22,7 @@ mindmap-plugin: basic
 
 ## Intro
 
-### ![[Pasted image 20230308094955.png]]
+### ![](Pasted%20image%2020230308094955.png)
 
 ### Best Practices
 - Avoid including implementation details.
@@ -66,9 +66,9 @@ mindmap-plugin: basic
 
 ### A JS test runner that lets you access an artificial DOM called jsdom. While jsdom is an approximation of how the browser works, it's often good enough for testing React component.
 
-## 📌[[Cypress]]
+## 📌[Cypress](Cypress.md)
 
-## 📌[[Storybook]]
+## 📌[Storybook](Storybook.md)
 
 ## Mocha
 

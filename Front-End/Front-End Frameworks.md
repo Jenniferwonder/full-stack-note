@@ -6,9 +6,9 @@ DateStarted: 2023-03-13
 DateModified: 2023-12-01
 status: 
 ---
-## [[SSG Frameworks]]
-## [[O-React|React]]-Based
-- [[Next.js]]
+## [SSG Frameworks](SSG%20Frameworks.md)
+## [React](O-React.md)-Based
+- [Next.js](Next.js)
   - Redwood
     - Prisma, GraphQL, Jest, Storybook
     - End-to-end workflow **great for startups**
@@ -38,4 +38,4 @@ status:
 
 - Blazor (C#, WASM/ Web Assembly)
   - Hot reload, lazy loading, virtualization
-- ![[z-Assets/Pasted image 20230308095920.png]]
+- ![](z-Assets/Pasted%20image%2020230308095920.png)

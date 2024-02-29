@@ -21,7 +21,7 @@ pertains to the permission that individual has, eg. a logged in user can't do wh
 
 ## How to implement
 
-#### 1. Sessions & [[Cookies]]
+#### 1. Sessions & [Cookies](Cookies)
 
 - Server maintains session and ID stored in cookie
 

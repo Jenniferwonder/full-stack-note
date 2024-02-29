@@ -12,7 +12,7 @@ sr-interval: 4
 sr-ease: 273
 ---
 
-[[前端大全]]
+[前端大全](前端大全)
 
 ## Problems/Purpose
 

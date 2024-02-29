@@ -28,12 +28,12 @@ mindmap-plugin: basic
 - [Custom Theme – Nextra](https://nextra.site/docs/custom-theme)
 
 ### Gatsby
-- ![[z-Assets/Pasted image 20230308175443.png]]
+- ![](z-Assets/Pasted%20image%2020230308175443.png)
 - Case
 - Project
 
 ### Astro
-- ![[z-Assets/Pasted image 20230308175352.png]]
+- ![](z-Assets/Pasted%20image%2020230308175352.png)
 - Case
     - https://github.com/lissy93/git-into-open-source
     - https://www.git-in.to/
@@ -42,14 +42,14 @@ mindmap-plugin: basic
 ## Python-Based
 
 ### Pelican
-- ![[z-Assets/Pasted image 20230308181745.png]]
+- ![](z-Assets/Pasted%20image%2020230308181745.png)
 - Case
 - Project
 
 ## Node-Based
 
 ### Hexo
-- ![[z-Assets/Pasted image 20230308181728.png]]
+- ![](z-Assets/Pasted%20image%2020230308181728.png)
 - Case
 - Project
 
@@ -58,23 +58,23 @@ mindmap-plugin: basic
 - Case
     - https://halfrost.com/ghost_build/
 - Project
-- ![[z-Assets/Paste image 1701346074225image.png]]
+- ![](z-Assets/Paste%20image%201701346074225image.png)
 
 ## Vue-Based
 
-### [[Vuepress2]]
+### [Vuepress2](Vuepress2.md)
 - Case
 - Project
 
 ### Gridsome
-- ![[z-Assets/Pasted image 20230308175509.png]]
+- ![](z-Assets/Pasted%20image%2020230308175509.png)
 - Case
 - Project
 
 ## Go-Based
 
 ### Hugo
-- ![[z-Assets/Pasted image 20230308181708.png]]
+- ![](z-Assets/Pasted%20image%2020230308181708.png)
 
 ### Case
 
@@ -83,7 +83,7 @@ mindmap-plugin: basic
 ## Ruby-Based
 
 ### Jekyll
-- ![[z-Assets/Pasted image 20230308175525.png]]
+- ![](z-Assets/Pasted%20image%2020230308175525.png)
 - GitHub Pages (Jekyll- 访问速度慢的实在不能忍 > 自购阿里云服务器 > Ghost)
 - Case
     - https://halfrost.com/jekyll/

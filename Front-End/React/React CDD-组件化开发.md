@@ -42,9 +42,9 @@ mindmap-plugin: basic
 
 ## React 组件插槽用法
 - 概念
-    - ![[z-React CDD-组件插槽用法.png|475]]
+    - ![](z-React%20CDD-组件插槽用法.png)
 - 组件的 `children` 子元素
-    - ![[React CDD-插槽-children.png|225]]![[React CDD-children.png|350]]
+    - ![](React%20CDD-插槽-children.png)![](React%20CDD-children.png)
     - 弊端
         - children 数量被限制
             - 1 个 (值为对象)
@@ -52,9 +52,9 @@ mindmap-plugin: basic
             - 多个 (值为对象数组)
                 - `children: [button, ...]`
     - 限制只能传一个元素
-	    - ![[React CDD-children-1.png]]
+	    - ![](React%20CDD-children-1.png)
 - `props` 属性传递 React 元素
-	- ![[React CDD-props.png]]
+	- ![](React%20CDD-props.png)
 
 ## React 非父子通信
 

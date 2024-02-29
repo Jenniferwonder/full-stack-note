@@ -41,7 +41,7 @@ It all depends on the case you have and your personal preference. If you are bui
 **TLDR;** You can replace an Express API with NextJS's API routing system but that only makes sense if you're building a full-stack React project. If it's a standalone API, using Next.js to replace just that API doesn't make any sense.  
 Next.js on its own is a powerful tool. When combined with Express, it makes a sacred combination. Using Express with Next.js, you can:
 
-### Why use Express with [[Next.js]]?
+### Why use Express with [Next.js](Next.js)?
 
 - Easily build web socket features in your applications
 - Develop custom or extra logic for your Next.js routes

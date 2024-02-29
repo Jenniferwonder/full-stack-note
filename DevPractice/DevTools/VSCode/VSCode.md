@@ -72,12 +72,12 @@ status:
 
 ## Extensions
 
-### [[100-Front-End Roadmap/1. TechSkills/1.2 Web Dev/1.2.3 Front-End Frameworks/React/React]] Extensions
+### [100-Front-End Roadmap/1. TechSkills/1.2 Web Dev/1.2.3 Front-End Frameworks/React/React](100-Front-End%20Roadmap/1.%20TechSkills/1.2%20Web%20Dev/1.2.3%20Front-End%20Frameworks/React/React) Extensions
 
 - React 代码提示插件：[ES7+ React/Redux/React-Native snippets - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
   - 效果：输入 `rfce` > 提示 ReactFunctionExportComponent
 
-### [[C-TailwindCSS]]
+### [C-TailwindCSS](C-TailwindCSS)
 
 - Tailwind CSS 代码提示插件：[Tailwind CSS IntelliSense - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
@@ -92,7 +92,7 @@ status:
  `ctrl`+`B`+`ctrl`+`K`  
  go to next: `ctrl`+`alt`+`N`
 
-[[VS Code 代码注释美化]]
+[VS Code 代码注释美化](VS%20Code%20代码注释美化.md)
 
 ## Error handling
 
@@ -103,6 +103,6 @@ status:
 #### 2. Expression expected
 
 > [visual studio code - Expression expected.ts(1109) after TypeScript upgrade to 3.7.2 - Stack Overflow](https://stackoverflow.com/questions/58820889/expression-expected-ts1109-after-typescript-upgrade-to-3-7-2)  
-> ![[zz-assets/Pasted image 20221206124519.png]]
+> ![](zz-assets/Pasted%20image%2020221206124519.png)
 
-#### 3. [[Dependency Installation Error]]
+#### 3. [Dependency Installation Error](Dependency%20Installation%20Error.md)

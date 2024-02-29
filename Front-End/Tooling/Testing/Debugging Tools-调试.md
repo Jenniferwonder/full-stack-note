@@ -7,7 +7,7 @@ DateStarted: 2022-11-30
 DateModified: 2023-12-06
 status: 
 ---
-- Up:: [[O-Front-End Tools]]
+- Up:: [O-Front-End Tools](O-Front-End%20Tools)
 ## Set-up
 
 - HTML, CSS, Live-server, Console

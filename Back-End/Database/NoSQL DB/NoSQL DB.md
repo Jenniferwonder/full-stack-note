@@ -10,15 +10,15 @@ Total: 0
 Completed: 0
 Incomplete: 0
 ---
-- Up:: [[Database-数据库原理]]
+- Up:: [Database-数据库原理](Database-数据库原理)
 ### NoSQL Databases
 #### 1. Key-Value
-- [[Redis]]
+- [Redis](Redis.md)
 #### 2. Wide Column
 
 #### 3. Document
 
-- [[MongoDB]]
+- [MongoDB](MongoDB.md)
 - Cassandra
 - Couchbase
 - DynamoDB
@@ -37,6 +37,6 @@ Incomplete: 0
 - H2 DB
 
 #### 6. Graph
-- [[GraphQL]]?
+- [GraphQL](GraphQL.md)?
 
 #### 7. Search Engine

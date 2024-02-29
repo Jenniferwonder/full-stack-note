@@ -9,7 +9,7 @@ status:
 ---
 ### SQL/Relational Databases
 
-- [[MySQL]]
+- [MySQL](MySQL.md)
 - PostgreSQL
 - Oracle
 - MS SQL

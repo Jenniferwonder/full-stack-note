@@ -13,11 +13,11 @@ mindmap-plugin: basic
 
 # O-Git
 
-## [[Git Commands]]
+## [Git Commands](Git%20Commands.md)
 
 ## README
 
-### [[GitHub README Tricks]]
+### [GitHub README Tricks](GitHub%20README%20Tricks.md)
 
 ### https://notes.aliciasykes.com/36402/github-markdown-tricks
 
@@ -27,4 +27,4 @@ mindmap-plugin: basic
 
 ### https://www.git-in.to/
 
-## [[S-Git&GitHub]]
+## [S-Git&GitHub](S-Git&GitHub.md)

@@ -32,4 +32,4 @@ mindmap-plugin: basic
 
 ## Resource
 
-### [[S-Gatsby]]
+### [S-Gatsby](S-Gatsby.md)

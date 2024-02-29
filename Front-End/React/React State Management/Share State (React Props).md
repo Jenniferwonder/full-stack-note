@@ -29,7 +29,7 @@ mindmap-plugin: basic
 
 ## Component & App Level
 
-### ![[Paste image 1701567850607image.png]]
+### ![](Paste%20image%201701567850607image.png)
 
 ### Move the *state* up from the component to its parent
 
@@ -48,9 +48,9 @@ mindmap-plugin: basic
 
 ## Case
 
-### 📌[[ShareClickApp]]
+### 📌[ShareClickApp](ShareClickApp.md)
 
-### 📌[[FilterList]]
+### 📌[FilterList](FilterList.md)
 
 ### 🚀MiniApp
-- 📌[[Tic-Tac-Toe]]
+- 📌[Tic-Tac-Toe](Tic-Tac-Toe.md)

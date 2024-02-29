@@ -8,10 +8,10 @@ sr-interval: 4
 sr-ease: 272
 ---
 ## Metadata
-- Up:: [[C-DevTools]]
+- Up:: [C-DevTools](C-DevTools)
 ### Alignment
-- Topic:: [[System Fundamentals]]
-- Up:: [[Operating Systems-操作系统原理和基础]]
+- Topic:: [System Fundamentals](System%20Fundamentals)
+- Up:: [Operating Systems-操作系统原理和基础](Operating%20Systems-操作系统原理和基础)
 ### Relationships
 - Related::
 - Linked::
@@ -21,11 +21,11 @@ sr-ease: 272
 	- [8 Ways To Fix Mouse Not Dragging Or Dropping](https://www.technewstoday.com/mouse-not-dragging/)
 ## Scope
 %% Begin Waypoint %%
-- **[[Windows]]**
-	- [[Back Up Tools]]
-	- [[PC Efficiency]]
-	- [[Shortcut Keys-OneCommander.html]]
-	- [[Windows Command and Tools]]
-	- [[Windows 修改默认字体]]
+- **[Windows](Windows.md)**
+	- [Back Up Tools](Back%20Up%20Tools.md)
+	- [PC Efficiency](PC%20Efficiency.md)
+	- [Shortcut Keys-OneCommander.html](Shortcut%20Keys-OneCommander.html)
+	- [Windows Command and Tools](Windows%20Command%20and%20Tools.md)
+	- [Windows 修改默认字体](Windows%20修改默认字体.md)
 
 %% End Waypoint %%

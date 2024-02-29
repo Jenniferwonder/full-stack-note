@@ -7,5 +7,4 @@
 
 #### Load Balancers
 
-![[Pasted image 20230315164956.png]]
-
+![](z-Assets/Pasted%20image%2020230315164956.png)

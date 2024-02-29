@@ -23,4 +23,4 @@ mindmap-plugin: basic
 
 ## Projects
 
-### 📌[[TravelPlan]]
+### 📌[TravelPlan](TravelPlan.md)

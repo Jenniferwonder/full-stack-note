@@ -5,12 +5,14 @@ tags:
   - NodeJS
 DateStarted: 2024-01-26
 DateModified: 2024-01-26
-DateDo: 
-DateDone: 
-DateDue: 
+DateDo:
+DateDone:
+DateDue:
 status:
 ---
-## Build a Server with Express.js 
+
+## Build a Server with Express.js
+
 Build a full-stack application and deploy it to the cloud.  
 Our **Server** will live on a URL. When user makes a request to this URL in the browser, the Server will response with some HTML.
 
@@ -23,7 +25,7 @@ Our **Server** will live on a URL. When user makes a request to this URL in the 
   - **Request** is the incoming data from the user. In some cases, you might want to look at the **headers** or the **body** of the request to authenticate a user or understand what the user is trying to do.
   - **Response** is your outgoing data
     - At this point,we need to implement the code to handle the request - reading some HTML from our file system and then send it back down to the browser.
-    - ![[Pasted image 20230301110202.png]]
+    - ![](z-Assets/Pasted%20image%2020230301110202.png)
   - Now we have a way to send HTML from the Server to the Client.
 - Now we need to tell our Express app to **start listening** to incoming requests.
   - We do that by defining a port which will normally come from `process.env.PORT`, a node environment variable,
@@ -31,4 +33,4 @@ Our **Server** will live on a URL. When user makes a request to this URL in the 
   - You can start it up by opening the command line and running Node with the current working directory `node .`.
   - If you go ahead and open it in the browser, you should see your HTML returned back to you.
 - The callback can be very difficult to work with as your app grows in complexity. It often leads to a state known as **callback hell** where. To avoid this, use `promise`.
-  - ![[Pasted image 20230301111713.png]]![[Pasted image 20230301111654.png]]
+  - ![](z-Assets/Pasted%20image%2020230301111713.png)![](z-Assets/Pasted%20image%2020230301111654.png)

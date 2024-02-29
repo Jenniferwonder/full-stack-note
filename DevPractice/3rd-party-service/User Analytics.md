@@ -7,7 +7,7 @@ DateModified: 2023-12-02
 status: 
 ---
 
-- [[Cookies]]
+- [Cookies](Cookies)
 - Session
 - Monitor user traffic
 - How to track and display Web Traffic?/ Visitor Data/ Blog Data?

@@ -20,7 +20,7 @@ sr-interval: 4
 sr-ease: 273
 ---
 ## Alignment
-- Up:: [[DevTools]]
+- Up:: [DevTools](DevTools.md)
 ## Purpose
 ## Scope
 - Kajabi for video platform

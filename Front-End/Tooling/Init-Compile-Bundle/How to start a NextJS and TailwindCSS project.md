@@ -11,7 +11,7 @@ status:
 
 > [7 better ways to create a React app - YouTube](https://www.youtube.com/watch?v=2OTq15A5s0Y)
 
-- [[Vite]] ~~/ Create-React-App/ Parcel~~?
+- [Vite](Vite.md) ~~/ Create-React-App/ Parcel~~?
   - Why not create react app? > Slower, Painful to set up tools like tailwind and typescript
   - Stackblitz/ CodeSandbox (Sharable from any computers)
   - Vite >
@@ -23,13 +23,13 @@ status:
 - Next.js >
   - `npx create-next-app --example with-tailwindcss <项目名>`
 
-## How to start a project with [[O-NextJS]]?
+## How to start a project with [O-NextJS](O-NextJS.md)?
 
 ### Initiate Next.js with TailwindCSS
 
 #### 1. Step 1 (🐛tailwindCSS not installed)
 
-![[Pasted image 20230320130514.png]]
+![](Pasted%20image%2020230320130514.png)
 
 ### Optional
 
@@ -38,9 +38,9 @@ status:
 `npx create-next-app@latest my-project --typescript --eslint`
 
 - When prompted to install `create-next-app@13.1.6`, hit `y`
-  - ![[Pasted image 20230217104358.png]]
+  - ![](Pasted%20image%2020230217104358.png)
 - Waiting for the success message
-- ![[Pasted image 20230217104926.png]]
+- ![](Pasted%20image%2020230217104926.png)
 
 #### 2. Step 2: Install Tailwind CSS
 
@@ -59,12 +59,12 @@ status:
 
 #### 3. Step 3: Install VS Code Extensions and plugins for React and Tailwind CSS
 
-- [[VSCode]]
-- [[C-TailwindCSS]]
+- [VSCode](VSCode.md)
+- [C-TailwindCSS](C-TailwindCSS)
 
 #### 4. Step 4: Install Dependencies
 
-- 🐛[[Dependency Installation Error]]
+- 🐛[Dependency Installation Error](Dependency%20Installation%20Error.md)
   根目录，可预先安装全部所需依赖：
   `npm i`
   `next-sanity`

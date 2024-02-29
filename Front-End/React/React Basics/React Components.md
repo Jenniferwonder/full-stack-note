@@ -28,4 +28,4 @@ mindmap-plugin: basic
 
 ## Projects
 
-### 📌[[AboutPage]]
+### 📌[AboutPage](AboutPage.md)

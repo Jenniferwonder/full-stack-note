@@ -9,6 +9,6 @@ sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 272
 ---
-- Up:: [[O-Front-End Tools]]
+- Up:: [O-Front-End Tools](O-Front-End%20Tools)
 React Router Dom
-[[Next.js]]
+[Next.js](Next.js)
