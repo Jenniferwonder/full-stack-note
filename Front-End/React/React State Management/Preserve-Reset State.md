@@ -9,8 +9,7 @@ DateModified: 2023-12-06
 DateDo: 
 DateDone: 
 DateDue: 
-status: 
-mindmap-plugin: basic
+status:
 ---
 
 # Preserve-Reset State

@@ -1,12 +1,20 @@
 ---
 Title: Think in React
-Type: D
 tags:
   - React
+Topic:
+  - Basic
+DateDo: 
+DateDone: 
+DateDue: 
+DateReviewed: 
+Reviewed: 
+Difficulty: 
+Comment: 
+Type: D
 DateStarted: 2023-12-06
-DateModified: 2023-12-06
-status: 
-mindmap-plugin: basic
+DateModified: 2024-03-01
+status:
 ---
 
 # Think in React

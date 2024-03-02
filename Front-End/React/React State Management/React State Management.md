@@ -5,8 +5,7 @@ tags:
   - React
 DateStarted: 2023-02-14
 DateModified: 2023-12-06
-status: 
-mindmap-plugin: basic
+status:
 ---
 
 # React State Management

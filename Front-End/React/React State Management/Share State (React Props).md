@@ -10,7 +10,6 @@ DateDue:
 status: 
 DateStarted: 2023-12-06
 DateModified: 2023-12-06
-mindmap-plugin: basic
 ---
 
 # Share State (React Props)

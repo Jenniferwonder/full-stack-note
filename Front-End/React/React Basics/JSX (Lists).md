@@ -1,15 +1,20 @@
 ---
+DateReviewed: 
+Reviewed: 
+Difficulty: 
+Comment: 
 Title: JSX (Lists)
 Type: D
 tags:
   - React
+Topic:
+  - Basic
 DateStarted: 2023-12-06
-DateModified: 2024-01-17
+DateModified: 2024-03-01
 DateDo: 
 DateDone: 
 DateDue: 
-status: 
-mindmap-plugin: basic
+status:
 ---
 
 # JSX (Lists)
@@ -18,7 +23,7 @@ mindmap-plugin: basic
 
 ### https://react.dev/learn#writing-markup-with-jsx
 
-## component also can’t return multiple JSX tags
+## component also can't return multiple JSX tags
 
 ### You have to wrap them into a shared parent, like a `<div>...</div>` or an empty `<>...</>` wrapper
 
@@ -45,7 +50,7 @@ mindmap-plugin: basic
 
 ### Case-3-`&&`
 
-### 📌*[Conditional](Conditional.md)*
+### 📌[Conditional](Conditional.md)
 
 ## Render Lists
 

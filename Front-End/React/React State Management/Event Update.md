@@ -9,8 +9,7 @@ DateModified: 2023-12-06
 DateDo: 
 DateDone: 
 DateDue: 
-status: 
-mindmap-plugin: basic
+status:
 ---
 
 # Event Update
@@ -18,7 +17,7 @@ mindmap-plugin: basic
 ## Reference
 
 ### [Reacting to Input with State • React](https://beta.reactjs.org/learn/reacting-to-input-with-state)
-- *Identify* your component’s different visual states
+- *Identify* your component's different visual states
 - *Determine* what triggers those state changes (Human/ computer input)
 - *Represent* the state in memory using `useState`
 - *Remove* any non-essential state variables

@@ -1,15 +1,20 @@
 ---
-DateDue:
-Title: "React Components "
-Type: D
+Title: React Components
 tags:
   - React
+Topic:
+  - Basic
+Reviewed: 
+Difficulty: 
+Comment: 
+DateDue: 
+Type: D
 DateStarted: 2024-01-17
-DateModified: 2024-01-17
+DateModified: 2024-03-01
 DateDo: 
 DateDone: 
-status: 
-mindmap-plugin: basic
+DateReviewed: 
+status:
 ---
 
 # React Components
@@ -29,3 +34,4 @@ mindmap-plugin: basic
 ## Projects
 
 ### 📌[AboutPage](AboutPage.md)
+

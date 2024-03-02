@@ -1,15 +1,14 @@
 ---
-DateDue:
+DateDue: 
 Title: "React Client and Server Components "
 Type: D
 tags:
   - React
 DateStarted: 2024-01-17
 DateModified: 2024-01-17
-DateDo:
-DateDone:
+DateDo: 
+DateDone: 
 status:
-mindmap-plugin: basic
 ---
 
 # React Client and Server Components
