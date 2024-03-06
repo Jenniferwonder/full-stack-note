@@ -1,14 +1,23 @@
 ---
-DateDue: 
-Title: "Create & Publish Component Library (React) "
-Type: D
+Title: Create & Publish Component Library (React)
 tags:
   - React
+  - CDD
+Topic:
+  - CDD
+DateReviewed: 
+DateDue: 
+Type: D
 DateStarted: 2024-01-16
-DateModified: 2024-01-16
+DateModified: 2024-03-05
 DateDo: 
 DateDone: 
-status:
+Reviewed: 
+status: 
+Difficulty: 
+Comment: 
+aliases:
+  - React CDD
 ---
 # Create & Publish Component Library (React)
 ## 💡Goal
@@ -25,10 +34,11 @@ status:
 #### (Optional) 
 - [create-react-library - npm (npmjs.com)](https://www.npmjs.com/package/create-react-library)
 	- `npx create-react-library my-react-library`
-- 🏷️[Project-Init](Project-Init.md)
+- 🏷️[Project-Init](../Tooling/Init-Compile-Bundle/Project-Init.md)
 ## Config TypeScript
-- 🏷️[TypeScript](TypeScript.md)
+- 🏷️[TypeScript](../Tooling/TypeScript/TypeScript.md)
 - Create `tsconfig.json`
+
 ```ts
 "skipLibCheck": true /* Skip type checking all .d.ts files. */,
 "jsx": "react", // Add support to jsx syntax
@@ -40,16 +50,19 @@ status:
 "allowSyntheticDefaultImports": true,
 "emitDeclarationOnly": true
 ```
+
 ## Develop your React components 
-> [React](O-React.md)
+> [React](../React/Private/O-React.md)
 - Create `index.ts` in each component directory
+
 ```ts
 export { default } from "./Button";
 export { default as Button } from "./Button";
 export * from "./components";
 ```
+
 ## Testing
-> 🏷️[Testing](Testing.md) -->🏷️[Storybook](Storybook.md) --> 🏷️[Cypress](Cypress.md) / [Jest](Jest)/ [React Testing Library](React%20Testing%20Library)
+> 🏷️[Testing](../Tooling/Testing/Testing.md) -->🏷️[Storybook](Storybook.md) --> 🏷️[Cypress](../Tooling/Testing/Cypress.md) / [Jest](Jest)/ [React Testing Library](React%20Testing%20Library)
 ### Jest & Babel
 > [Configuring Jest · Jest](https://jestjs.io/docs/configuration#testenvironment-string)
 #### Install Jest
@@ -65,6 +78,7 @@ export * from "./components";
 	- [node.js - Error while loading config - You appear to be using a native ECMAScript module configuration file - Stack Overflow](https://stackoverflow.com/questions/61146112/error-while-loading-config-you-appear-to-be-using-a-native-ecmascript-module-c)
 
 ##### 测试环境依赖问题
+
 ``` shell
 As of Jest 28 "jest-environment-jsdom" is no longer shipped by default, make sure to install it separately.
 ```
@@ -72,11 +86,13 @@ As of Jest 28 "jest-environment-jsdom" is no longer shipped by default, make sur
 > `npm install -D jest-environment-jsdom`
 
 并在 `jest.config.cjs` 添加：
+
 ```js
 module.exports = {
 testEnvironment: "jsdom",
 }
 ```
+
 - Reference
 	- [javascript - Upgrading Jest to v29 - Error Test environment jest-environment-jsdom cannot be found - Stack Overflow](https://stackoverflow.com/questions/72013449/upgrading-jest-to-v29-error-test-environment-jest-environment-jsdom-cannot-be)
 
@@ -86,6 +102,7 @@ testEnvironment: "jsdom",
 >`npm install -D identity-obj-proxy`
 
 并在 `jest.config.cjs` 添加：
+
 ```js
 module.exports = {
 moduleNameMapper: {
@@ -96,7 +113,7 @@ moduleNameMapper: {
 
 ### Storybook
 #### Install
-`npx sb init`
+`npx sb init`  
 `npm run storybook`
 #### 🐛Note
 ##### storybook not able to detect the right builder
@@ -107,8 +124,8 @@ moduleNameMapper: {
 - 💡to document your components and generate a live style guide
     - [Learn React Styleguidist | React Styleguidist (react-styleguidist.js.org)](https://react-styleguidist.js.org/learn)
 ## Compilers and Bundlers
->[Compilers and Bundlers](Compilers%20and%20Bundlers.md)
->[为什么说rollup比webpack更适合打包库 - 知乎](https://zhuanlan.zhihu.com/p/340255085)
+>[Compilers and Bundlers](Compilers%20and%20Bundlers.md)  
+>[为什么说rollup比webpack更适合打包库 - 知乎](https://zhuanlan.zhihu.com/p/340255085)  
 >[打包工具 rollup.js 入门教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2022/05/rollup.html)
 
 ### Rollup Install & Config
@@ -116,6 +133,7 @@ moduleNameMapper: {
 - ✅`npm install rollup @rollup/plugin-commonjs @rollup/plugin-node-resolve @rollup/plugin-typescript rollup-plugin-dts --save-dev`
 - ✅`npm install rollup-plugin-postcss --save-dev` ^y1ky13
 #### 🐛 npm 报错 (network error)：
+
 ```shell
 npm ERR! code ETIMEDOUT
 npm ERR! errno ETIMEDOUT
@@ -127,12 +145,13 @@ npm ERR! network If you are behind a proxy, please make sure that the
 npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 ```
 
-退出所有代理，重试即可
+退出所有代理，重试即可  
 查看是否有代理
 - `npm config get proxy`
 - `npm config get https-proxy`
 
 #### 🟨To check
+
 ```
 // "@babel/preset-env": "^7.23.9",
 // "@babel/preset-react": "^7.23.3",
@@ -144,16 +163,18 @@ npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 // "rollup-plugin-dts": "^6.1.0",
 // "rollup-plugin-terser": "^7.0.2",
 ```
+
 #### Configure Rollup for bundling
 - Create `rollup.config.js`: 
 	- [rollup.config.js](file:///e%3A/SynologyDrive/Codespace/full-stack/front-end/component-dev-practice/react-component-lib/rollup.config.js)
 - Add plugin to support css file
 	- `import postcss from "rollup-plugin-postcss";`
-	- npm install the plugin: [Create & Publish Component Library (React) > ^y1ky13](Create%20&%20Publish%20Component%20Library%20(React)#^y1ky13)
+	- npm install the plugin: [Create & Publish Component Library (React) > ^y1ky13](Front-End/CDD/README.md#^y1ky13)
 ## Package management 
 ### Update `package.json`
 - metadata + scripts
 	- name, version, description, keywords, author
+
 ```json
   {
   "main": "dist/cjs/index.js",
@@ -168,6 +189,7 @@ npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
   },
   }
 ```
+
 ## Publish the Library
 ### Opt-1: Publish to NPM & Install with NPM
 - Create an account
@@ -176,7 +198,7 @@ npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 - Package versioning and update
     - Semantic versioning
     - Publish updates
-- 🏷️[O-NodeJS](O-NodeJS.md)
+- 🏷️[O-NodeJS](../../Back-End/Node.js/O-NodeJS.md)
 ### Opt-2: Publish to GitHub & Install with NPM
 #### Create a git repo
 > If you want to build a library for internal use, create a private repo
@@ -187,11 +209,13 @@ npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 	- `"name": "@jenniferwonder/my-react-component-lib"`
 	- `"publishConfig":{"registry": "https://npm.pkg.github.com/jenniferwonder"}`
 #### Create `.npmrc` file
+
 ```npmrc
 registry=https://registry.npmjs.org/
 @jenniferwonder:registry=https://npm.pkg.github.com/
 //npm.pkg.github.com/:_authToken=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
 ```
+
 #### Generate GitHub Tokens
 - https://github.com/settings/tokens
 - Select permission
@@ -207,10 +231,10 @@ registry=https://registry.npmjs.org/
 - import and use components in your projects
 ### Consume a private library 
 - Get the Token with permission needed
-- create an `.npmrc` file same as that of the library: [Create & Publish Component Library (React) > Create npmrc file](Create%20&%20Publish%20Component%20Library%20(React)#Create%20npmrc%20file)
+- create an `.npmrc` file same as that of the library: [Create & Publish Component Library (React) > Create npmrc file](Front-End/CDD/README.md#Create%20npmrc%20file)
 - install the package: `npm install @jenniferwonder/my-react-component-lib` ^4nn4c5
 ### Consume a public library
-- [Create & Publish Component Library (React) > ^4nn4c5](Create%20&%20Publish%20Component%20Library%20(React)#^4nn4c5)
+- [Create & Publish Component Library (React) > ^4nn4c5](Front-End/CDD/README.md#^4nn4c5)
 
 ## CI-CD
 ## Design Tokens to the reuse

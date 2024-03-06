@@ -27,7 +27,7 @@ status:
 
 ## [Why Storybook](Why%20Storybook.md)
 ## [Install & Run Storybook](Install%20&%20Run%20Storybook.md)
-## [Config Storybook](Config%20Storybook.md)
+## [Config Storybook](Storybook/Config%20Storybook.md)
 ### [Write Stories](Write%20Stories.md)
 
 ## Data

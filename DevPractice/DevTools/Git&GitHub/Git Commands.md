@@ -30,16 +30,7 @@ sr-ease: 273
 - Commit change to a submodule: 
 	- `cd submodule` --> `git add .` --> `git commit -m"..."` ...
 	- Update the main repo: `cd ..` --> `git add .` --> ...
-### Token
-- [Site Unreachable](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
-- gitee token
-	- 098d55a41dcdafae1fcaaac18ec5e000
-- ubuntu_git token (1113-0213/ 90 days)
-	-  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
-- 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
-- To reduce the time entering username and password: 
-	- [Git - git-credential-cache Documentation](https://git-scm.com/docs/git-credential-cache
-	- [github - Git asks for username every time I push - Stack Overflow](https://stackoverflow.com/questions/11403407/git-asks-for-username-every-time-i-push)
+### [[Git Token]]
 ### Download
 #### Update 
 - Update Git in Ubuntu

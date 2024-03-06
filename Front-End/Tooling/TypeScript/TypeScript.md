@@ -7,8 +7,7 @@ DateModified: 2023-12-02
 status: 
 DateDo: 
 DateDue: 
-DateDone: 
-mindmap-plugin: basic
+DateDone:
 ---
 
 # TypeScript
@@ -231,3 +230,20 @@ mindmap-plugin: basic
 ## Intersection Type
 
 ## Optional Chaining
+
+## Questions
+### [可以使用TypeScript写React应用吗？怎么操作？](https://github.com/haizlin/fe-interview/issues/899)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

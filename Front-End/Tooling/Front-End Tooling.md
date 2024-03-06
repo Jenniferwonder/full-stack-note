@@ -47,7 +47,7 @@ mindmap-plugin: basic
 - React Component Lib
     - Styled-JSX
     - 📌Use  Component Lib
-    - 🏷️[Create & Publish Component Library (React)](Create%20&%20Publish%20Component%20Library%20(React).md)
+    - 🏷️[README](Front-End/CDD/README.md)
 - Vue Component Lib
 - Svelte Component Lib
 

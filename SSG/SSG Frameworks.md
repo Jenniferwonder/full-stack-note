@@ -4,8 +4,7 @@ tags:
   - SSG
 DateStarted: 2023-03-08
 DateModified: 2023-12-01
-status: 
-mindmap-plugin: basic
+status:
 ---
 
 # SSG
@@ -24,8 +23,7 @@ mindmap-plugin: basic
 
 ## React-Based
 
-### Nextra
-- [Custom Theme – Nextra](https://nextra.site/docs/custom-theme)
+### [[Nextra]]
 
 ### Gatsby
 - ![](z-Assets/Pasted%20image%2020230308175443.png)

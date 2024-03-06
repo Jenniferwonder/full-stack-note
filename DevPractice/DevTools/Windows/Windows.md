@@ -21,11 +21,12 @@ sr-ease: 272
 	- [8 Ways To Fix Mouse Not Dragging Or Dropping](https://www.technewstoday.com/mouse-not-dragging/)
 ## Scope
 %% Begin Waypoint %%
-- **[Windows](Windows.md)**
-	- [Back Up Tools](Back%20Up%20Tools.md)
-	- [PC Efficiency](PC%20Efficiency.md)
-	- [Shortcut Keys-OneCommander.html](Shortcut%20Keys-OneCommander.html)
-	- [Windows Command and Tools](Windows%20Command%20and%20Tools.md)
-	- [Windows 修改默认字体](Windows%20修改默认字体.md)
+- **[[Windows]]**
+	- [[Back Up Tools]]
+	- [[PC Efficiency]]
+	- **Private**
+		- [[Shortcut Keys-OneCommander.html]]
+	- [[Windows Command and Tools]]
+	- [[Windows 修改默认字体]]
 
 %% End Waypoint %%

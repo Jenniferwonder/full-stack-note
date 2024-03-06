@@ -1,15 +1,14 @@
 ---
-Type: 
+Type: C
 DateDo: 
 DateDone: 
 DateDue: 
 Title: Testing
 tags:
-  - TechSkills
+  - Testing
 DateStarted: 2023-03-01
 DateModified: 2024-01-03
-status: 
-mindmap-plugin: basic
+status:
 ---
 
 # Testing
@@ -68,7 +67,7 @@ mindmap-plugin: basic
 
 ## 📌[Cypress](Cypress.md)
 
-## 📌[Storybook](Storybook.md)
+## 📌[Storybook](Storybook/Storybook.md)
 
 ## Mocha
 
