@@ -1,131 +1,51 @@
 ---
-Title: Protocols-网络协议
+title: Network Protocols
 Type: O
+topic: 
+type: 
+DateReviewed: 
+reviewed: 
+difficulty: 
+comment: 
 tags:
   - Network
-DateDo: 
-DateDone: 
 DateStarted: 2023-03-06
-DateModified: 2023-12-27
-DateDue: 
+DateModified: 2024-04-11
 status: 
-mindmap-plugin: basic
+linter-yaml-title-alias: Network Protocols
+aliases:
+  - Network Protocols
 ---
 
 # Network Protocols
 
 ## Reference
+- [Protocol - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Protocol)
+- [[S-Network]]
 
-### [Protocol - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Protocol)
-
-### [[Web, Network, Internet]]
-
-### [[S-Network]]
-
-## Intro
+## OSI 的七层模型：  
+✅[通俗大白话来理解 TCP 协议的三次握手和四次分手](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjawil%2Fblog%2Fissues%2F14 "https://github.com/jawil/blog/issues/14")
+[![](https://camo.githubusercontent.com/3568ca73ef69fb3fbccf7f03867933c98b4ec3c99721261389faba43ca56c928/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323434383735322d313235396366326233646635333766342e6a70673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430)](https://camo.githubusercontent.com/3568ca73ef69fb3fbccf7f03867933c98b4ec3c99721261389faba43ca56c928/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323434383735322d313235396366326233646635333766342e6a70673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430)  
+在OSI七层模型中，每一层的作用和对应的协议如下：  
+[![](https://camo.githubusercontent.com/b5edc916eebc7117d31a8f47d194def70e8e3fe3269f7a92647da93b35ca3bbe/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323434383735322d323062333132323731313732616364632e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430)](https://camo.githubusercontent.com/b5edc916eebc7117d31a8f47d194def70e8e3fe3269f7a92647da93b35ca3bbe/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f323434383735322d323062333132323731313732616364632e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430)
+每个 **数据** 都会经过数据的封装和解封装的过程。 
+第七层——应用层，数据从应用层发下来，会在每一层都会加上头部信息，进行封装，然后再发送到数据接收端。([[web-fundamentals/web-protocol/http|HTTP]])
+第四层——Transport 层，数据叫 Segment。([[web-fundamentals/web-protocol/tcp-protocol|TCP]], UDP)
+第三层——Network 层，数据叫 Packet ([[ip-protocol|IP]], ICMP)
+第二层——Data Link 层，数据叫 Frame (ARP, RARP)
 
 ### Protocol
 - Rules for interactions between two parties
 
 ### Network protocol
 - the type of messages that are going to be sent over the network
-- format, structure  and order of those messages
+- format, structure and order of those messages
 - whether or not there should be some sort of response, and what the response should look like
 - whether or not there should be rules around when messages can be sent to one another
 
-## [[TCP-IP]]
+## [[socket|Socket]]
 
-### Network layers and TCP/IP
 
-### IP
-- Internet Protocol
-- IP address
-- Versions
-    - IPv4
-    - IPv6
-- Data is to be sent in the form of an *IP packet*
-    - The building blocks of communication between machines over the Internet
-    - The fundamental unit of data made up of *Bytes*
-        - There are other units beyond IP packets
-    - 2 sections
-        - Header
-            - Source address of the packet
-            - Destination address the packet is going to
-            - Total size of the packet
-            - Version of the Internet protocol that this IP packet is operating by
-            - Size of the header
-                - Small: 20~60 Bytes
-        - Data
-            - Size limit
-                - 0~65 mb
-                - ❌Data lost, and wrong order for multiple IP packets
-            - TCP header
 
-### TCP
-- Transmission control protocol
-    - ✅To send IP packet in an ordered way
-- To communicate with another machine
-    - Create a TCP connection with the destination server through a *handshake*, a special TCP interaction where one computer contacts the other by sending a packet or a few packets
-    - The server responds saying OK
-    - The client re-responds saying OK
-    - Then, both machines can freely sends data to one another
-    - Cases
-        - Timeout
-            - If one of the machines doesn't send data in a given amount of time
-        - End connection by sending special message
-- ❌You're just sending arbitrary data that fits into these underlying IP packets
 
-## [[HTTP]]
 
-### Introduce a higher level abstraction above TCP and IP
-- *Request-Response Paradigm*
-
-### With HTTP, all we deal with are HTTP request and response
-
-### Request
-- have lots of *properties* defined by HTTP protocol
-- host
-- port
-- method
-    - post
-        - provide data to the server
-    - get
-        - retrieve data from the server
-    - put
-    - delete
-        - ask the server to delete data
-- path
-    - A server might have multiple paths for different services
-    - Separate out logic on the server
-- headers
-    - `'content-type': 'application/json'`
-        - Type of the body
-    - `'content-length':51`
-- body
-
-### Response
-- *statusCode*
-    - Type of response
-
-### Express server example
-- ![[z-express-server-example.png]]
-- Accept json as the data format
-- Listen to port 3000
-- 2 endpoints
-- Unix
-    - Launch server
-        - `node server.js`
-    - `curl`
-        - Allow to send data to servers and retrieve data from servers using different protocols
-        - Default: get request
-            - `curl localhost:3000/hello`
-        - Default: post request
-            - `curl --header 'content-type: application/json' localhost:3000/hello --data'{"foo":"bar"}'`
-
-## [[HTTP]]/ [[HTTPS-HTTPS2]]/ [[DNS]]
-
-## IP/ ICMP
-
-## TCP/ UDP
-
-## ARP/ RARP

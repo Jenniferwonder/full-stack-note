@@ -1,8 +1,8 @@
 ---
-Title: Server
+title: Server
 tags: TechSkills
-DateStarted: 2023-03-06 
-DateModified: 2023-03-13 
+DateStarted: 2023-03-06
+DateModified: 2023-03-13
 status:
 Progress: NaN%
 sr-due: 2023-07-02

@@ -1,10 +1,10 @@
 ---
-Title: Web, Network, Internet
+title: Web, Network, Internet
 tags:
   - TechSkills
 DateStarted: 2022-12-02
 DateModified: 2023-12-06
-status: 
+status:
 ---
 
 [100+ Web Development Things you Should Know - YouTube](https://www.youtube.com/watch?v=erEgovG9WBs&list=PL0vfts4VzfNjQOM9VClyL5R0LeuTxlAR3&index=13)
