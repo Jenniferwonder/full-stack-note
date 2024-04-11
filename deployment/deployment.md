@@ -1,10 +1,10 @@
 ---
-Title: Deploying
+title: Deploying
 tags:
   - TechSkills
 DateStarted: 2022-11-29
 DateModified: 2023-12-06
-status: 
+status:
 ---
 
 ## Questions
@@ -21,9 +21,14 @@ status:
 - 图床
 
 ## Reference
+
 - [大公司里怎样开发和部署前端代码？](https://link.juejin.cn?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F20790576 "https://www.zhihu.com/question/20790576")
 - [前端高级进阶：前端部署的发展历程](https://juejin.cn/post/6844904086823780366 "https://juejin.cn/post/6844904086823780366")
 - [如何部署网站？来比比谁的方法多 - 哔哩哔哩](https://www.bilibili.com/read/cv16179200)
+- 你们公司项目发布流程是什么样的
+- 前端资源发布路径怎么实现非覆盖式发布（平滑升级）？
+    - [前端开发体系建设日记](https://link.segmentfault.com/?enc=ZpvInopx32IGK%2FvnIg2vLg%3D%3D.PJEv7fHpFxUMZ%2BIQuGQukLViiVDVM%2FejJlUOTokPCeZYXahz9lQzKfyK%2F2smXshy)
+- SSR项目是如何发布的
 ### 原始部署
 
 #### 1. 前端：
@@ -37,21 +42,18 @@ Java, Maven
 ### 宝塔 Linux 部署
 
 ### 前端托管
-
 前端腾讯云 web 应用托管
-
 - 小缺点：需要将代码放到代码托管平台
 - 优势：不用写命令、代码更新时自动构建
 
 ### Docker 部署
-
 可以将项目环境和项目代码一起打包成镜像，所有同学都能下载镜像，更容易分发移植
 
 ## 绑定域名
+
 [DNS](DNS)
 
 ## 跨域问题解决
-
 
 ## [CI-CD](CI-CD.md)
 
@@ -68,6 +70,7 @@ Server-side apps need a server to execute your code
 - Platform as a service
 - Everything is set up for you without need to set up a server (Install **Nginx** and firewalls...)
 - Only need to push your code to GitHub and select the repo from within the platform much like you do with Netlify
+
 #### Render.com
 
 With free tier
@@ -77,7 +80,9 @@ With free tier
 Stop free tier since 2022
 
 ### Cloud Hosting
+
 #### Google App Engine
+
 ##### 1.1. What and why?
 
 - (Fully managed serverless application platform) - an easy and free way,
@@ -103,4 +108,3 @@ Stop free tier since 2022
 
 - Great for large projects with a lot of traffic
 - Tons of services
-

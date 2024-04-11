@@ -1,13 +1,13 @@
 ---
-Title: Hosting Service-托管服务
+title: Hosting Service-托管服务
 Type: D
-tags: 
+tags:
 DateStarted: 2023-11-30
 DateModified: 2023-12-06
-DateDo: 
-DateDone: 
-DateDue: 
-status: 
+DateDo:
+DateDone:
+DateDue:
+status:
 mindmap-plugin: basic
 ---
 
@@ -16,6 +16,7 @@ mindmap-plugin: basic
 ## S-Hosting Sevice
 
 ### Blog
+
 - [什么是云计算领域的 hosting service-云社区-华为云](https://bbs.huaweicloud.com/blogs/409429)
 
 ## Intro
@@ -25,38 +26,40 @@ mindmap-plugin: basic
 ### 企业可以将自身的核心业务集中精力，而将硬件和软件基础设施的维护和管理交给专业的云服务提供商
 
 ### Benefits
+
 - 灵活性和弹性扩展
-    - 能够根据实际需求动态调整资源规模，实现弹性扩展
-    - 能够按需分配和释放资源，避免了资源浪费
-    - Ex.
-        - 一个电子商务平台在双十一期间可以通过云提供商的IaaS服务快速扩展服务器数量，以满足激增的用户流量需求
+  - 能够根据实际需求动态调整资源规模，实现弹性扩展
+  - 能够按需分配和释放资源，避免了资源浪费
+  - Ex.
+    - 一个电子商务平台在双十一期间可以通过云提供商的 IaaS 服务快速扩展服务器数量，以满足激增的用户流量需求
 - 成本效益
-    - 可以降低企业的IT运营成本
-    - 托管服务将这些成本转变为按需付费的模式，避免了大额前期投资
-    - 减少了人力资源和能源成本
+  - 可以降低企业的 IT 运营成本
+  - 托管服务将这些成本转变为按需付费的模式，避免了大额前期投资
+  - 减少了人力资源和能源成本
 - 高可用性和可靠性
-    - 冗余和备份机制，以确保应用程序的高可用性和数据的安全性
-    - Ex.
-        - 微软Azure提供了全球范围内的数据中心，可以实现跨地理位置的数据冗余和灾难恢复
+  - 冗余和备份机制，以确保应用程序的高可用性和数据的安全性
+  - Ex.
+    - 微软 Azure 提供了全球范围内的数据中心，可以实现跨地理位置的数据冗余和灾难恢复
 - 快速部署和开发
-    - 可以更快速地部署和交付应用程序
-    - 开发人员可以专注于应用程序的逻辑和功能，而不必关注底层基础设施的设置和管理
-    - Ex.
-        - 一个移动应用开发团队可以使用PaaS服务快速搭建后端服务，以支持应用的快速上线
+  - 可以更快速地部署和交付应用程序
+  - 开发人员可以专注于应用程序的逻辑和功能，而不必关注底层基础设施的设置和管理
+  - Ex.
+    - 一个移动应用开发团队可以使用 PaaS 服务快速搭建后端服务，以支持应用的快速上线
 
 ## 基础设施即服务（IaaS）
 
 ### 提供了基础的计算资源，如虚拟机、存储和网络。
 
-### 企业可以通过IaaS在云端创建和管理虚拟服务器、存储资源和网络设置
+### 企业可以通过 IaaS 在云端创建和管理虚拟服务器、存储资源和网络设置
 
 ### 避免了传统硬件采购和维护的成本和复杂性
 
 ### 允许用户根据实际需求快速创建、启动和管理虚拟服务器
 
 ### Cases
-- 亚马逊AWS的EC2（Elastic Compute Cloud）
-- 微软Azure的虚拟机服务
+
+- 亚马逊 AWS 的 EC2（Elastic Compute Cloud）
+- 微软 Azure 的虚拟机服务
 
 ## 平台即服务（PaaS）
 
@@ -67,8 +70,9 @@ mindmap-plugin: basic
 ### 让开发者可以快速构建、部署和扩展应用程序
 
 ### Cases
-- 谷歌的App Engine
-- 微软的Azure App Service
+
+- 谷歌的 App Engine
+- 微软的 Azure App Service
 
 ## 软件即服务（SaaS）
 
@@ -77,6 +81,7 @@ mindmap-plugin: basic
 ### 用户可以通过网络浏览器等方式访问和使用这些应用程序，无需在本地安装和维护软件
 
 ### Cases
-- 常见的SaaS应用包括电子邮件、办公套件、客户关系管理等
-- Salesforce提供的CRM（Customer Relationship Management）
-- Google Workspace（以前的G Suite）提供的办公套件
+
+- 常见的 SaaS 应用包括电子邮件、办公套件、客户关系管理等
+- Salesforce 提供的 CRM（Customer Relationship Management）
+- Google Workspace（以前的 G Suite）提供的办公套件

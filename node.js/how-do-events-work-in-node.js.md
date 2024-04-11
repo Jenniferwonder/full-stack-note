@@ -1,5 +1,5 @@
 ---
-Title: How do Events work in Node.js
+title: How do Events work in Node.js
 Type: D
 tags:
   - NodeJS

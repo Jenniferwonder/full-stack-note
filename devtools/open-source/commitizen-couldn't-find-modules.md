@@ -1,12 +1,12 @@
 ---
 Type: Note
-Title: Commitizen-couldn't find modules
+title: Commitizen-couldn't find modules
 tags:
   - TechSkills
 DateStarted: 2023-04-24
 DateModified: 2023-12-01
-cssclass: 
-status: 
+cssclass:
+status:
 sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 273

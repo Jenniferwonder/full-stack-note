@@ -1,15 +1,16 @@
 ---
-Title: Next.js or Express
+title: Next.js or Express
 Type: D
 tags:
   - NodeJS
 DateStarted: 2024-01-26
 DateModified: 2024-01-26
-DateDo: 
-DateDone: 
-DateDue: 
+DateDo:
+DateDone:
+DateDue:
 status:
 ---
+
 ## Next.js or Express?
 
 > [Build a server-rendered React app with Next.js and Express - LogRocket Blog](https://blog.logrocket.com/build-server-rendered-react-app-next-express/)  

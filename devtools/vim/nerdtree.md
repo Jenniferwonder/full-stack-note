@@ -1,13 +1,15 @@
 ---
-Title: Nerdtree
+title: Nerdtree
 Type: D
 tags:
   - Vim
 DateStarted: 2023-11-04
 DateModified: 2023-12-01
-status: 
+status:
 ---
+
 ## Install Nerdtree via [Vim-plug](Vim-plug.md)
+
 ```lua
 -- ~/.config/nvim/init.lua
 -- Load Vim-Plug

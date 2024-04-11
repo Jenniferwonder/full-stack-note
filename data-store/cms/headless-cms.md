@@ -1,5 +1,5 @@
 ---
-Title: Headless CMS
+title: Headless CMS
 Topic: TechSkills
 tags: TechSkills
 DateStarted: 2023-05-17

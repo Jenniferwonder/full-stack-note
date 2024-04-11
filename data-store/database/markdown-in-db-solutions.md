@@ -1,14 +1,16 @@
 ---
-Title: Markdown in DB Solutions
+title: Markdown in DB Solutions
 tags: TechSkills
-DateStarted: 2023-04-24 
-DateModified: 2023-04-24 
+DateStarted: 2023-04-24
+DateModified: 2023-04-24
 status:
 sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 276
 ---
+
 - Up:: [Database-数据库原理](Database-数据库原理)
+
 ## Markdown in DB Solutions
 
 - [How do you save markdown in database and render it? | Makerlog](https://getmakerlog.com/discussions/waptik-how-do-you-save-markdown-in-database-and-re)

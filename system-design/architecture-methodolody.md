@@ -1,5 +1,5 @@
 ---
-Title: Architecture Methodolody
+title: Architecture Methodolody
 tags:
   - TechSkills
 DateStarted: 2023-03-13

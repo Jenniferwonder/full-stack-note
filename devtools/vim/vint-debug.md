@@ -1,5 +1,5 @@
 ---
-Title: Vint-Debug
+title: Vint-Debug
 Type: D
 tags:
   - Vim

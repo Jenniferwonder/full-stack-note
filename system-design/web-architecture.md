@@ -1,16 +1,17 @@
 ---
-Title: Web Architecture
+title: Web Architecture
 tags: TechSkills
 DateStarted: 2023-03-13
 DateModified: 2023-12-06
-status: 
+status:
 sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 276
 ---
+
 - Up:: [Distributed System Design-分布式技术架构](Distributed%20System%20Design-分布式技术架构.md)
-[WEB APP ARCHITECTURE - THE ULTIMATE APPROACH!! - YouTube](https://www.youtube.com/watch?v=PjprIvgGh90)
-![](Pasted%20image%2020230307214310.png)
+  [WEB APP ARCHITECTURE - THE ULTIMATE APPROACH!! - YouTube](https://www.youtube.com/watch?v=PjprIvgGh90)
+  ![](Pasted%20image%2020230307214310.png)
 
 ### Server-side development approaches
 

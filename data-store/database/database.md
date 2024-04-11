@@ -1,5 +1,5 @@
 ---
-Title: Database Paradigms
+title: Database Paradigms
 Topic:
 tags:
   - TechSkills

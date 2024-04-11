@@ -1,10 +1,10 @@
 ---
 Type: Note
-Title: VSCode
+title: VSCode
 tags: TechSkills
 DateStarted: 2022-12-06
 DateModified: 2023-12-01
-status: 
+status:
 ---
 
 ## Shortcuts

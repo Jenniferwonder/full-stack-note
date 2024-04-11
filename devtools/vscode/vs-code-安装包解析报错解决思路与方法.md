@@ -1,10 +1,10 @@
 ---
-Title: VS Code 安装包解析报错解决思路与方法
+title: VS Code 安装包解析报错解决思路与方法
 tags:
   - TechSkills
 status: ""
 DateStarted: 2022-11-11
-aliases: 
+aliases:
 sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 272

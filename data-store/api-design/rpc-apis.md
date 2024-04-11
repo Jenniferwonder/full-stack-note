@@ -1,7 +1,7 @@
 ---
-Title: RPC APIs
+title: RPC APIs
 Type:
-tags: 
+tags:
 DateStarted: 2023-12-27
 DateModified: 2023-12-27
 DateDo:
@@ -9,6 +9,7 @@ DateDone:
 DateDue:
 status:
 ---
+
 # RPC APIs
 
 - Has Endpoints for each action
@@ -21,7 +22,7 @@ status:
 - Lightweight payloads
 - High performance
 
-###  Cons
+### Cons
 
 - Discovery is difficult
 - Limited standardization

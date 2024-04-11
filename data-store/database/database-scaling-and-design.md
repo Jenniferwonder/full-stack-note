@@ -1,16 +1,17 @@
 ---
-Title: Database Scaling and Design
-Type: 
+title: Database Scaling and Design
+Type:
 tags:
   - Database
   - System
 DateStarted: 2023-12-27
 DateModified: 2023-12-27
-DateDo: 
-DateDone: 
-DateDue: 
+DateDo:
+DateDone:
+DateDue:
 status:
 ---
+
 ## [Database](Database.md) Scaling and Design
 
 Performance bottleneck  

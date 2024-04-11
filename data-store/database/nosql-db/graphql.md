@@ -1,5 +1,5 @@
 ---
-Title: GraphQL
+title: GraphQL
 tags:
   - Database
 DateStarted: 2023-03-01

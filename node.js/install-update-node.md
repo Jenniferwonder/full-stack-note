@@ -1,5 +1,5 @@
 ---
-Title: Install & Update Node
+title: Install & Update Node
 Type:
 tags:
   - NodeJS

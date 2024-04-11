@@ -1,5 +1,5 @@
 ---
-Title: Keyboard-Shortcuts
+title: Keyboard-Shortcuts
 tags:
   - TechSkills
   - TechSkills

@@ -1,7 +1,7 @@
 ---
-Title: Sanity
+title: Sanity
 tags: TechSkills
-DateStarted: 2023-01-09 
+DateStarted: 2023-01-09
 DateModified: 2023-02-07
 status:
 sr-due: 2023-07-02

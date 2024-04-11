@@ -1,10 +1,10 @@
 ---
-Title: UML
+title: UML
 tags: PKM
 DateStarted: 2023-03-07
-due: 
+due:
 DateModified: 2023-12-06
-status: 
+status:
 Progress: NaN%
 ---
 

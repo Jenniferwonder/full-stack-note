@@ -1,5 +1,5 @@
 ---
-Title: REST API
+title: REST API
 Type:
 tags:
   - API
