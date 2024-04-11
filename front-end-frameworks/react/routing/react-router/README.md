@@ -3,7 +3,7 @@ title: React Router
 aliases: react-router
 ---
 
-# React Router
+# React Router DOM
 
 > [Feature Overview v6.22.3 | React Router](https://reactrouter.com/en/main/start/overview)
 
@@ -18,6 +18,69 @@ React Router enables "==client side routing=="
 
 In traditional websites, the browser **requests a document from a web server, downloads and evaluates CSS and JavaScript assets, and renders the HTML sent from the server**. When the user clicks a link, it starts the process all over again for a new page
 Client side routing allows your app to update the URL from a link click **without making another request for another document from the server**. Instead, your app can immediately render some new UI and make data requests with `fetch` to update the page with new information
+
+
+## Routers
+low-level interface that is shared by all router components. 
+- [`<Router>`](https://reactrouter.com/en/main/router-components/router)
+	- should use one of the higher-level routers. Only ever need one router in a given app
+### ✅ Data Routers (v6.4)
+>v6.4, new routers that support Data API
+> to quickly update to a v6.4 is to get the help from [`createRoutesFromElements`](https://reactrouter.com/en/main/utils/create-routes-from-elements) so you don't need to convert your `<Route>` elements to route objects
+- [`createBrowserRouter`](https://reactrouter.com/en/main/routers/create-browser-router)
+	- For all web projects 
+	- uses the **full URL** instead of the hash urls (`#this/stuff`) common in web apps before `history.pushState` was standardized
+	- better for SEO, better for server rendering, and are just more compatible with the rest of the web platform
+	- on a static file server, you'll need to configure it to send all requests to your `index.html` to avoid getting 404s
+- [`createMemoryRouter`](https://reactrouter.com/en/main/routers/create-memory-router)
+	- Testing components that use React Router APIs is easiest with [`createMemoryRouter`](https://reactrouter.com/en/main/routers/create-memory-router) or [`<MemoryRouter>`](https://reactrouter.com/en/main/router-components/memory-router) instead of the routers you use in your app that require DOM history APIs
+- [`createHashRouter`](https://reactrouter.com/en/main/routers/create-hash-router)
+	- If for some reason you can't use the full URL, [`createHashRouter`](https://reactrouter.com/en/main/routers/create-hash-router) is the next best thing
+- [`createStaticRouter`](https://reactrouter.com/en/main/routers/create-static-router)
+### 🟨 Old Router Components
+> Router components that do not support the data APIs:
+> recommend updating your app to use one of the new routers from 6.4
+- [`<BrowserRouter>`](https://reactrouter.com/en/main/router-components/browser-router)
+- [`<MemoryRouter>`](https://reactrouter.com/en/main/router-components/memory-router)
+- [`<HashRouter>`](https://reactrouter.com/en/main/router-components/hash-router)
+- [`<NativeRouter>`](https://reactrouter.com/en/main/router-components/native-router)
+- [`<StaticRouter>`](https://reactrouter.com/en/main/router-components/static-router)
+## Route
+Data APIs for Route; Only work when using a [[front-end-frameworks/react/routing/react-router/README#✅ Data Routers v6 4|✅ Data Router v6 4]]
+- [`route.action`](https://reactrouter.com/en/main/route/action)
+- [`route.errorElement`](https://reactrouter.com/en/main/route/error-element)
+- [`route.lazy`](https://reactrouter.com/en/main/route/lazy)
+- [`route.loader`](https://reactrouter.com/en/main/route/loader)
+- [`route.shouldRevalidate`](https://reactrouter.com/en/main/route/should-revalidate)
+- [`route.handle`](https://reactrouter.com/en/main/route/route#handle)
+
+## Components
+>Data APIs for Route; Only work when using a [[front-end-frameworks/react/routing/react-router/README#✅ Data Routers v6 4|✅ Data Router v6 4]]
+- [`<Await>`](https://reactrouter.com/en/main/components/await)
+- [`<Form>`](https://reactrouter.com/en/main/components/form)
+- [`<ScrollRestoration>`](https://reactrouter.com/en/main/components/scroll-restoration)
+## Hooks
+>Data APIs for Route; Only work when using a [[front-end-frameworks/react/routing/react-router/README#✅ Data Routers v6 4|✅ Data Router v6 4]]
+- [`useActionData`](https://reactrouter.com/en/main/hooks/use-action-data)
+- [`useAsyncError`](https://reactrouter.com/en/main/hooks/use-async-error)
+- [`useAsyncValue`](https://reactrouter.com/en/main/hooks/use-async-value)
+- [`useFetcher`](https://reactrouter.com/en/main/hooks/use-fetcher)
+- [`useFetchers`](https://reactrouter.com/en/main/hooks/use-fetchers)
+- [`useLoaderData`](https://reactrouter.com/en/main/hooks/use-loader-data)
+- [`useMatches`](https://reactrouter.com/en/main/hooks/use-matches)
+- [`useNavigation`](https://reactrouter.com/en/main/hooks/use-navigation)
+- [`useRevalidator`](https://reactrouter.com/en/main/hooks/use-revalidator)
+- [`useRouteError`](https://reactrouter.com/en/main/hooks/use-route-error)
+- [`useRouteLoaderData`](https://reactrouter.com/en/main/hooks/use-route-loader-data)
+- [`useSubmit`](https://reactrouter.com/en/main/hooks/use-submit)
+- `startViewTransition` support on [Link](https://reactrouter.com/en/main/components/link#unstable_viewtransition) and [useNavigate](https://reactrouter.com/en/main/hooks/use-navigate#optionsunstable_viewtransition)
+## Fetch Utilities
+
+
+## Utilities
+
+
+
 
 ## Use
 
@@ -168,3 +231,10 @@ The `navigation.location` will show up when the app is navigating to a new URL
 ### Mutation without Navigation
 
 `useFetcher` allows us to communicate with loaders and actions without causing a navigation
+
+
+
+
+
+
+

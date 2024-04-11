@@ -1,13 +1,16 @@
 ---
-Title: Full-Stack Frameworks
+title: Full-Stack Frameworks
 tags:
   - TechSkills
 DateStarted: 2023-03-13
 DateModified: 2023-12-01
-status: 
+status:
 ---
+
 ## [SSG Frameworks](SSG%20Frameworks.md)
+
 ## [React](O-React.md)-Based
+
 - [Next.js](Next.js)
   - Redwood
     - Prisma, GraphQL, Jest, Storybook
