@@ -1,9 +1,9 @@
 ---
 Type: C
-DateDo: 
-DateDone: 
-DateDue: 
-Title: Testing
+DateDo:
+DateDone:
+DateDue:
+title: Testing
 tags:
   - Testing
 DateStarted: 2023-03-01
@@ -24,12 +24,14 @@ status:
 ### ![](Pasted%20image%2020230308094955.png)
 
 ### Best Practices
+
 - Avoid including implementation details.
 - Final users will have no notion of React. Rather than dealing with instances of rendered React components, your tests should wok with actual DOM nodes.
 - Resemble software usage
 - Maintainability in the long run - as long as you're not changing functionality any changes in the implementation of the component won't break your tests and slow you and your team down
 
 ### Why Testing?
+
 - Discover defects or bugs before delivery to the client
 - Guarantee the quality of the software you develop further by catching bugs before they find their way into a live application
 - Reduce user complaints and save time and money
@@ -37,6 +39,7 @@ status:
 ## TDD-Test Drivern Development Philosophy
 
 ### Unit Test
+
 - Unit Test 单元测试 （代码帮你测试代码）
 
 ### Integration Test
@@ -46,22 +49,24 @@ status:
 ## React Testing Library
 
 ### Reference
+
 - [React Testing Library | Testing Library (testing-library.com)](https://testing-library.com/docs/react-testing-library/intro/)
 - Tutorials
-    - [React Testing Library Tutorial (robinwieruch.de)](https://www.robinwieruch.de/react-testing-library/)
+  - [React Testing Library Tutorial (robinwieruch.de)](https://www.robinwieruch.de/react-testing-library/)
 
 ## Jest
 
 ### Reference
+
 - [Getting Started · Jest](https://jestjs.io/docs/getting-started)
 - Tutorials
-    - [React Testing Tutorial (Jest + React Testing Library) (youtube.com)](https://www.youtube.com/watch?v=ML5egqL3YFE)
+  - [React Testing Tutorial (Jest + React Testing Library) (youtube.com)](https://www.youtube.com/watch?v=ML5egqL3YFE)
 
 ### Two tools React endorses to structure your tests.
 
 ### Good iteration speed
 
-### Powerful features, like *mocking* modules so you can have more control over how the code executes, to make sure your unit testing is standalone.
+### Powerful features, like _mocking_ modules so you can have more control over how the code executes, to make sure your unit testing is standalone.
 
 ### A JS test runner that lets you access an artificial DOM called jsdom. While jsdom is an approximation of how the browser works, it's often good enough for testing React component.
 

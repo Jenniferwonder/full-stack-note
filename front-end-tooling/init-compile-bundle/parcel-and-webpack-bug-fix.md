@@ -1,7 +1,7 @@
 ---
-Title: Parcel and Webpack Bug Fix
-tags: 
-status: 
+title: Parcel and Webpack Bug Fix
+tags:
+status:
 DateStarted: 2022-11-22 Tue
 DateModified: 2023-12-02
 ---

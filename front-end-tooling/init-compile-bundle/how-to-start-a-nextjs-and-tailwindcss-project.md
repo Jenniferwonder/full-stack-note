@@ -1,10 +1,10 @@
 ---
-Title: How to start a React, NextJS and TailwindCSS project
+title: How to start a React, NextJS and TailwindCSS project
 tags:
   - TechSkills
 DateStarted: 2023-02-17
 DateModified: 2023-12-02
-status: 
+status:
 ---
 
 ## Options

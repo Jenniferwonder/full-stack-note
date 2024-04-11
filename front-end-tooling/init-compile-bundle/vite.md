@@ -1,10 +1,10 @@
 ---
-Title: Vite
+title: Vite
 tags:
   - TechSkills
 DateStarted: 2023-01-09
 DateModified: 2023-12-02
-status: 
+status:
 ---
 
 ## Reference

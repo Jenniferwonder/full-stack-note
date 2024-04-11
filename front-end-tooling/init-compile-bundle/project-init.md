@@ -1,13 +1,13 @@
 ---
-Title: ProjectInit
+title: ProjectInit
 Type: O
-tags: 
+tags:
 DateStarted: 2023-12-21
 DateModified: 2023-12-21
-DateDo: 
-DateDone: 
-DateDue: 
-status: 
+DateDo:
+DateDone:
+DateDue:
+status:
 mindmap-plugin: basic
 ---
 
