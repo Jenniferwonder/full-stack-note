@@ -9,7 +9,7 @@ status:
 
 ## [SSG Frameworks](SSG%20Frameworks.md)
 
-## [React](O-React.md)-Based
+## [react](private/p-react/react.md)-Based
 
 - [Next.js](Next.js)
   - Redwood

@@ -5,7 +5,7 @@ type:
 tags:
   - Astro
 DateStarted: 2024-04-07
-DateModified: 2024-04-07
+DateModified: 2024-04-12
 DateDo: 
 DateDone: 
 DateDue: 
@@ -13,7 +13,10 @@ DateReviewed:
 reviewed: 
 difficulty: 
 status: 
-comment:
+comment: 
+aliases:
+  - Sync and Publish Obsidian Notes with Astro
+linter-yaml-title-alias: "Sync and Publish Obsidian Notes with Astro "
 ---
 # Sync and Publish Obsidian Notes with Astro 
 ## Purpose
@@ -37,13 +40,12 @@ If using [astro-starlight](https://starlight.astro.build/getting-started/) templ
 #### ❌ Solutions I've tried
 > neither of the following solution works in astro-starlight project
 
-- [parsing - Using markdown wiki-links in Astro framework - Stack Overflow](https://stackoverflow.com/questions/76163067/using-markdown-wiki-links-in-astro-framework)
 - [GitHub - vernak2539/astro-rehype-relative-markdown-links: Rehype Plugin for Astro that allows for usage of relative links between markdown files](https://github.com/vernak2539/astro-rehype-relative-markdown-links)
-- @portaljs/remark-wiki-link
 - [Getting Started | Starlight Links Validator](https://starlight-links-validator.vercel.app/getting-started/)
 
 ##### starlight-obsidian
 >[GitHub - HiDeoo/starlight-obsidian: Starlight plugin to publish Obsidian vaults](https://github.com/HiDeoo/starlight-obsidian)
+
 
 | Pros                              | Cons                                                                      |
 | --------------------------------- | ------------------------------------------------------------------------- |
@@ -53,3 +55,23 @@ If using [astro-starlight](https://starlight.astro.build/getting-started/) templ
 |                                   | <br><br>                                                                  |
 
 #### 👍 Current solution I'm using
+- [parsing - Using markdown wiki-links in Astro framework - Stack Overflow](https://stackoverflow.com/questions/76163067/using-markdown-wiki-links-in-astro-framework)
+- @portaljs/remark-wiki-link
+
+Turn note links into absolute path wikilink 
+Configure `@portaljs/remark-wiki-link`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
