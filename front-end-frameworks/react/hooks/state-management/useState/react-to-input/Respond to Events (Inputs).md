@@ -4,22 +4,20 @@ tags:
   - React
 Topic:
   - React
-Type: D
+type: D
 DateStarted: 2023-12-06
-DateModified: 2024-03-05
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-status:
-Reviewed:
-Difficulty:
-Comment:
+DateModified: 2024-04-17
+Datereviewed: 
+status: 
+reviewed: 
+Difficulty: 
+Comment: 
 ---
 
 # Respond to Events (Inputs)
+
 - React 事件绑定原理
-    - [深入理解React：事件机制原理](https://link.segmentfault.com/?enc=YWEtw47CvOdPRPRJCJ0lxA%3D%3D.CuQXmGFuL7V69GLgnC6fFFMLm%2Fcpx6Mo5oQ0kdkOWgh4Za%2BUqvZdkoW7IoaLDTqaJtyqsYD9QGfnqxGRrf0qQA%3D%3D)
+  - [深入理解 React：事件机制原理](https://link.segmentfault.com/?enc=YWEtw47CvOdPRPRJCJ0lxA%3D%3D.CuQXmGFuL7V69GLgnC6fFFMLm%2Fcpx6Mo5oQ0kdkOWgh4Za%2BUqvZdkoW7IoaLDTqaJtyqsYD9QGfnqxGRrf0qQA%3D%3D)
 
 ## Reference
 

@@ -2,19 +2,16 @@
 title: CSS Modules in React
 Topic:
   - React
-Type: D
+type: D
 tags:
   - React
 DateStarted: 2024-03-05
-DateModified: 2024-03-05
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Difficulty:
-status:
-Comment:
+DateModified: 2024-04-17
+Datereviewed: 
+reviewed: 
+Difficulty: 
+status: 
+Comment: 
 aliases:
   - CSS Modules
 ---

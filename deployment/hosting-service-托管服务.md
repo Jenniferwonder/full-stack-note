@@ -1,14 +1,10 @@
 ---
 title: Hosting Service-托管服务
-Type: D
-tags:
+type: D
+tags: 
 DateStarted: 2023-11-30
-DateModified: 2023-12-06
-DateDo:
-DateDone:
-DateDue:
-status:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+status: 
 ---
 
 # Hosting Service-托管服务

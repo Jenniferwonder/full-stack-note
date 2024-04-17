@@ -1,10 +1,9 @@
 ---
 title: GitHub README Tricks
 tags: TechSkills
-status:
+status: 
 DateStarted: 2022-11-22
-DateModified: 2023-12-01
-DateDue: 2022-10-31
+DateModified: 2024-04-17
 Progress: NaN%
 sr-due: 2023-07-02
 sr-interval: 4

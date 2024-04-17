@@ -3,11 +3,8 @@ title: TypeScript
 tags:
   - TechSkills
 DateStarted: 2022-11-29
-DateModified: 2023-12-02
-status:
-DateDo:
-DateDue:
-DateDone:
+DateModified: 2024-04-17
+status: 
 ---
 
 # TypeScript

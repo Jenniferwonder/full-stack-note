@@ -1,15 +1,12 @@
 ---
 title: Containerization & Virtualization
-Type: Note
+type: Note
 tags: TechSkills
-Points:
-Priority:
+Points: 
+Priority: 
 DateStarted: 2023-06-24
-DateModified: 2023-12-01
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+status: 
 Total: 0
 Completed: 0
 Incomplete: 0

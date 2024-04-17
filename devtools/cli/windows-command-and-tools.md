@@ -2,10 +2,10 @@
 title: Windows Commands and Tools
 tags:
   - TechSkills
-Type: Note
-status:
+type: Note
+status: 
 DateStarted: 2022-11-22 Tue
-DateModified: 2023-12-01
+DateModified: 2024-04-17
 ---
 
 - 批处理命令：

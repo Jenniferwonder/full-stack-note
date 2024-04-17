@@ -2,19 +2,17 @@
 title: React Bundle Issue
 Topic:
   - React
-Type: D
+type: D
 tags:
   - React
 DateStarted: 2024-03-06
-DateModified: 2024-03-06
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Difficulty:
-status:
-Comment:
+DateModified: 2024-04-17
+DateDone: 
+Datereviewed: 
+reviewed: 
+Difficulty: 
+status: 
+Comment: 
 aliases:
   - React Bundle Issue
 ---
@@ -33,6 +31,8 @@ aliases:
 - [in Depth-a-note-on-vite-p2](https://angularindepth.com/posts/1327/a-note-on-vite-a-very-fast-dev-build-tool-ii)
 
 ## Questions
+
+#### [浏览器为什么无法直接 JSX？怎么解决呢？](https://github.com/haizlin/fe-interview/issues/624)
 
 #### [React 根据不同的环境打包不同的域名？](https://github.com/haizlin/fe-interview/issues/882)
 

@@ -1,8 +1,7 @@
 ---
 title: Tic-Tac-Toe
 DateStarted: 2023-12-03
-DateModified: 2023-12-05
-mindmap-plugin: basic
+DateModified: 2024-04-17
 aliases:
   - tic-tac-toe
 ---
@@ -11,7 +10,7 @@ aliases:
 
 ## Build _Tic-Tac-Toe_
 
-### ![](./z-Assets/Demo-tic-tac-toe.png)
+### ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Demo-tic-tac-toe.png)
 
 ## 📌*Square*
 

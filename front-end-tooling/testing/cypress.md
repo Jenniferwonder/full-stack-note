@@ -1,13 +1,10 @@
 ---
-title:
-Type:
-tags:
-DateStarted:
-DateModified:
-DateDo:
-DateDone:
-status:
-mindmap-plugin: basic
+title: 
+type: 
+tags: 
+DateStarted: 2024-01-05
+DateModified: 2024-04-17
+status: 
 ---
 
 # Cypress

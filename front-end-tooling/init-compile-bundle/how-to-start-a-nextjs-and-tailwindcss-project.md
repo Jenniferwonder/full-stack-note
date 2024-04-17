@@ -3,8 +3,8 @@ title: How to start a React, NextJS and TailwindCSS project
 tags:
   - TechSkills
 DateStarted: 2023-02-17
-DateModified: 2023-12-02
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## Options
@@ -29,7 +29,7 @@ status:
 
 #### 1. Step 1 (🐛tailwindCSS not installed)
 
-![](Pasted%20image%2020230320130514.png)
+![](Pasted-image-20230320130514.png)
 
 ### Optional
 
@@ -38,9 +38,9 @@ status:
 `npx create-next-app@latest my-project --typescript --eslint`
 
 - When prompted to install `create-next-app@13.1.6`, hit `y`
-  - ![](Pasted%20image%2020230217104358.png)
+  - ![](Pasted-image-20230217104358.png)
 - Waiting for the success message
-- ![](Pasted%20image%2020230217104926.png)
+- ![](Pasted-image-20230217104926.png)
 
 #### 2. Step 2: Install Tailwind CSS
 
@@ -64,7 +64,7 @@ status:
 
 #### 4. Step 4: Install Dependencies
 
-- 🐛[Dependency Installation Error](Dependency%20Installation%20Error.md)
+- 🐛[Dependency Installation Error](Dependency-Installation-Error.md)
   根目录，可预先安装全部所需依赖：
   `npm i`
   `next-sanity`

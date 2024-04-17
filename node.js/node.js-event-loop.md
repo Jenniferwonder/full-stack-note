@@ -2,20 +2,17 @@
 title: Node.js Event Loop
 Topic:
   - Async
-Type: D
+type: D
 tags:
   - JavaScript
   - NodeJS
 DateStarted: 2024-02-20
-DateModified: 2024-02-20
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Difficulty:
-status:
-Comment:
+DateModified: 2024-04-17
+Datereviewed: 
+reviewed: 
+Difficulty: 
+status: 
+Comment: 
 ---
 
 # Node.js Event Loop

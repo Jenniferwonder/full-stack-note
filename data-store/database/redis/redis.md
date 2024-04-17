@@ -1,3 +1,7 @@
+---
+DateStarted: 2023-08-22
+DateModified: 2024-04-17
+---
 ### 介绍
 
 很多同学第一次接触 Redis 可能都是因为 “缓存”，也有很多同学误以为 Redis 就是缓存、只能做缓存。  
@@ -20,7 +24,7 @@
 
 ### 大纲
 
-![](z-Assets/Redis.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Redis.png)
 
 ### 知识点
 

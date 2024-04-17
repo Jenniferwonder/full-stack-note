@@ -3,16 +3,16 @@ title: Compilers and Bundlers
 tags:
   - TechSkills
 DateStarted: 2022-12-16
-DateModified: 2023-12-02
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
-- Up:: [O-Front-End Tools](O-Front-End%20Tools)
+- Up:: [O-Front-End Tools](O-Front-End-Tools)
 
 ## Scope
 
 - [Vite](Vite.md)
-- [Parcel and Webpack Bug Fix](Parcel%20and%20Webpack%20Bug%20Fix.md)
+- [Parcel and Webpack Bug Fix](Parcel-and-Webpack-Bug-Fix.md)
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/df3cf7bce9c4475db94aa28556e73886~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
 

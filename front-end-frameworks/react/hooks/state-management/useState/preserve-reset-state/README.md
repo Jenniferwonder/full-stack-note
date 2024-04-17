@@ -4,17 +4,14 @@ Topic:
   - React
 tags:
   - React
-Type: D
+type: D
 DateStarted: 2023-12-06
-DateModified: 2024-03-05
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-status:
-Difficulty:
-Comment:
+DateModified: 2024-04-17
+Datereviewed: 
+reviewed: 
+status: 
+Difficulty: 
+Comment: 
 aliases:
   - Preserve-Reset State
 ---

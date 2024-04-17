@@ -3,9 +3,8 @@ title: GraphQL
 tags:
   - Database
 DateStarted: 2023-03-01
-DateModified: 2023-11-28
-status:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+status: 
 ---
 
 ## Reference
@@ -27,7 +26,7 @@ mindmap-plugin: basic
 - We may want a small subset of a data entity, in which case we need to **over fetch** from the API, which is bad for the environment.  
   A GraphQL API has a single entry point. Data is queried or fetched by describing it with a syntax that mirrors its return shape in `json`.  
   The front-end developer describes the data they want while the back-end developer writes code to resolve the request.
-  - ![](z-Assets/Pasted%20image%2020230301190231.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301190231.png)
 
 ### Pros
 
@@ -41,8 +40,8 @@ mindmap-plugin: basic
 - Added complexity
 - Optimizing performance is difficult
 - Too complicated for a simple API  
-  ![](z-Assets/Pasted%20image%2020230308202117.png)  
-  ![](z-Assets/Pasted%20image%2020230308202453.png)
+  ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308202117.png)  
+  ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308202453.png)
 
 ## How to use?
 
@@ -52,15 +51,15 @@ We can start **defining a schema** with our own custom objects using the `type` 
 
 - A `type` can have multiple fields like a unique `id: ID!` and we'll make that required with a bang `!` , let's also give it interger `int` and `String` values, then create a relationship with another type.
 - A creator can have many videos which we can represent by wrapping the type in brackets `videos:[Video]`. On the flip side, a video belongs to a creator.
-  - ![](z-Assets/Pasted%20image%2020230301190845.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301190845.png)
 - Every GraphQL API has a `type Query` type, which is a main entry point to **read data**. We can query a list of videos or an individual user based on their id.
-  - ![](z-Assets/Pasted%20image%2020230301191155.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301191155.png)
 - That's how a consumer reads data but they may also want to **mutate data**, in which case we implement `type Mutation` that defines how data can be modified on the API.
-  - ![](z-Assets/Pasted%20image%2020230301191354.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301191354.png)
 
 ### Resolve Data
 
 - From there, we can define code to **resolve** this data in any programming language (Resolvers)
-  - ![](z-Assets/Pasted%20image%2020230301191523.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301191523.png)
 - Once deployed, any developer consuming this API will be able to explore it with a complete understanding of **all possible queries and data entities**, which means the tooling can **auto-complete** your query as you type it out in your editor.
-  - ![](z-Assets/Pasted%20image%2020230301191929.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301191929.png)

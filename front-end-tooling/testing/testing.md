@@ -1,27 +1,25 @@
 ---
-Type: C
-DateDo:
-DateDone:
-DateDue:
+type: C
 title: Testing
 tags:
   - Testing
 DateStarted: 2023-03-01
-DateModified: 2024-01-03
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 # Testing
 
+[[front-end-tooling/testing/测试-react-testing|测试-React Testing]]
+
 ## Reference
 
-### [如何使用 React Testing Library 和 Jest 测试 React 应用 · Issue #16 · vortesnail/blog · GitHub](https://github.com/vortesnail/blog/issues/16)
-
-### [Test-Driven Development // Fun TDD Introduction with JavaScript - YouTube](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
+- [如何使用 React Testing Library 和 Jest 测试 React 应用 · Issue #16 · vortesnail/blog · GitHub](https://github.com/vortesnail/blog/issues/16)
+- [Test-Driven Development // Fun TDD Introduction with JavaScript - YouTube](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
 
 ## Intro
 
-### ![](Pasted%20image%2020230308094955.png)
+### ![](Pasted-image-20230308094955.png)
 
 ### Best Practices
 

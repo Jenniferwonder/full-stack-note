@@ -1,19 +1,17 @@
 ---
 title: Astro Basics
-Topic:
-Type:
+Topic: 
+type: 
 tags:
   - Astro
 DateStarted: 2024-03-29
-DateModified: 2024-03-29
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Difficulty:
-status:
-Comment:
+DateModified: 2024-04-17
+DateDue: 
+ewed: 
+reviewed: 
+Difficulty: 
+status: 
+Comment: 
 ---
 
 ### Why
@@ -65,8 +63,8 @@ Comment:
   - allow you to “try out” a new framework without requiring you to start an entirely new project using that tech stack
   - allow you to reuse code you have written in other frameworks and you can often just drop them right into your site.
   - `client:load`
-  - `client:visible`  
-     - will only send the component’s JavaScript when it is visible on the page
+  - `client:visible`
+    - will only send the component’s JavaScript when it is visible on the page
 
 ##### JS in HTML `<script>` tag
 

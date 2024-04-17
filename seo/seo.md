@@ -8,3 +8,5 @@ status:
 ---
 
 [网站的 SEO 以及它和站长工具的之间秘密 - Barret 李靖 - 博客园 (cnblogs.com)](https://www.cnblogs.com/hustskyking/p/webmaster-in-baidu-and-google.html)
+
+![image.png](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/202404120856641.png)

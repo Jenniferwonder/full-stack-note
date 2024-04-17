@@ -3,11 +3,11 @@ title: Full-Stack Frameworks
 tags:
   - TechSkills
 DateStarted: 2023-03-13
-DateModified: 2023-12-01
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
-## [SSG Frameworks](SSG%20Frameworks.md)
+## [SSG Frameworks](SSG-Frameworks.md)
 
 ## [react](private/p-react/react.md)-Based
 
@@ -41,4 +41,4 @@ status:
 
 - Blazor (C#, WASM/ Web Assembly)
   - Hot reload, lazy loading, virtualization
-- ![](z-Assets/Pasted%20image%2020230308095920.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308095920.png)

@@ -1,17 +1,14 @@
 ---
 title: No-Code Tools
-Type: Note
+type: Note
 tags: TechSkills
-Points:
-EST:
-ACT:
-Priority:
+Points: 
+EST: 
+ACT: 
+Priority: 
 DateStarted: 2023-06-24
-DateModified: 2023-12-01
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+DateDue: 
 Total: 0
 Completed: 0
 Incomplete: 0

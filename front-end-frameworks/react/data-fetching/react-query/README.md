@@ -4,17 +4,14 @@ tags:
   - React
 Topic:
   - React
-Type: D
-DateDue:
+type: D
 DateStarted: 2024-01-17
-DateModified: 2024-03-05
-DateDo:
-DateDone:
-DateReviewed:
-status:
-Reviewed:
-Difficulty:
-Comment:
+DateModified: 2024-04-17
+Datereviewed: 
+status: 
+reviewed: 
+Difficulty: 
+Comment: 
 aliases:
   - React Query
 ---

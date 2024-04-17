@@ -5,7 +5,7 @@ tags:
   - TechSkills
 status: ""
 DateStarted: 2022-11-22
-DateModified: 2023-12-01
+DateModified: 2024-04-17
 Progress: NaN%
 sr-due: 2023-07-02
 sr-interval: 4
@@ -118,7 +118,7 @@ Paste multiple items: `win`+`V`
 - Chrome
   - `ctrl`+`shift`+`I`
   - `ctrl`+`shift`+`P`
-  - Type: "Capture full-size screenshot".
+  - type: "Capture full-size screenshot".
 - Chrome extension: GoFullPage `alt`+`shift`+`P`
 
 ## Figma Keyboard Shortcuts

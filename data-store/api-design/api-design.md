@@ -3,9 +3,8 @@ title: Web APIs and API Design Patterns
 tags:
   - API
 DateStarted: 2022-12-02
-DateModified: 2023-11-28
-status:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+status: 
 ---
 
 ## What is an API?
@@ -29,10 +28,10 @@ mindmap-plugin: basic
 
 ## API Patterns
 
-### [REST API](REST%20API.md)
+### [REST API](REST-API.md)
 
-### [RPC APIs](RPC%20APIs.md)
+### [RPC APIs](RPC-APIs.md)
 
 ### [GraphQL](GraphQL.md)
 
-## [API Resources](API%20Resources.md)
+## [API Resources](API-Resources.md)

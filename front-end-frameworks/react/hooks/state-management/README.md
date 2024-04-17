@@ -4,17 +4,15 @@ tags:
   - React
 Topic:
   - React
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
+DateDone: 
+Datereviewed: 
 DateStarted: 2023-02-14
-DateModified: 2024-03-06
-Reviewed:
-status:
-Difficulty:
-Comment:
-Type: D
+DateModified: 2024-04-17
+reviewed: 
+status: 
+Difficulty: 
+Comment: 
+type: D
 aliases:
   - React State Management
 ---
@@ -51,7 +49,7 @@ aliases:
 
 > to share state between components
 
-- `![Share Date Illustration](./z-Assets/1701567850607.png)`
+- `![Share Date Illustration](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/1701567850607.png)`
 - Move the _state_ up from the component to its parent
 - Pass the _state_ and _Event Handlers_ as _props_ to each component used in the parent app
   - `<MyButton count={count} onClick={handleClick} />`

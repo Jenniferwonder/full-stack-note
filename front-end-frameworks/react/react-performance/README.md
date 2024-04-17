@@ -2,19 +2,17 @@
 title: React Performance Best Practice
 Topic:
   - React
-Type: D
+type: D
 tags:
   - React
 DateStarted: 2024-03-06
-DateModified: 2024-03-06
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Difficulty:
-status:
-Comment:
+DateModified: 2024-04-17
+DateDone: 
+Datereviewed: 
+reviewed: 
+Difficulty: 
+status: 
+Comment: 
 aliases:
   - React Performance
 ---

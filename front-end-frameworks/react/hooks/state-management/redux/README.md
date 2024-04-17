@@ -4,17 +4,15 @@ tags:
   - React
 Topic:
   - React
-Type: D
+type: D
 DateStarted: 2024-01-17
-DateModified: 2024-03-05
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-status:
-Reviewed:
-Difficulty:
-Comment:
+DateModified: 2024-04-17
+DateDone: 
+Datereviewed: 
+status: 
+reviewed: 
+Difficulty: 
+Comment: 
 aliases:
   - React Lib for State Management
 ---

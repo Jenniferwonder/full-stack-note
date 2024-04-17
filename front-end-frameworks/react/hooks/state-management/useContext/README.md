@@ -2,19 +2,17 @@
 title: React `useContext` and Context API
 Topic:
   - React
-Type: D
+type: D
 tags:
   - React
 DateStarted: 2024-01-17
-DateModified: 2024-03-20
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Comment:
-Difficulty:
-status:
+DateModified: 2024-04-17
+DateDone: 
+Datereviewed: 
+reviewed: 
+Comment: 
+Difficulty: 
+status: 
 aliases:
   - useContext
 ---

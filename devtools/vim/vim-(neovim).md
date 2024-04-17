@@ -3,9 +3,8 @@ title: vim
 tags:
   - TechSkills
 DateStarted: 2023-02-17
-DateModified: 2023-12-01
-status:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+status: 
 ---
 
 # Vim (Neovim)
@@ -54,7 +53,7 @@ mindmap-plugin: basic
       - `sudo passwd`
       - `su root`
     - Node & NPM
-      - https://juejin.cn/s/ubuntu%20install%20lua-language-server
+      - https://juejin.cn/s/ubuntu-install-lua-language-server
     - Command
       - tldr
         - to get usage of certain command
@@ -65,7 +64,7 @@ mindmap-plugin: basic
 ### Install dependencies for Nvim
 
 - Python
-  - 🐛✅[Debug Neovim can't load Python, even though everything is installed. 1](Debug%20Neovim%20can't%20load%20Python,%20even%20though%20everything%20is%20installed.%201.md)
+  - 🐛✅[Debug Neovim can't load Python, even though everything is installed. 1](Debug-Neovim-can't-load-Python,-even-though-everything-is-installed.-1.md)
 - Ctags
   - https://askubuntu.com/questions/796408/installing-and-using-universal-ctags-instead-of-exuberant-ctags/836521#836521
 - Ripgrep
@@ -106,7 +105,7 @@ mindmap-plugin: basic
     - On ubuntu > _%HOME%/.bash_profile_
       - Add `export PATH="$HOME/nvim-linux64/bin:$PATH"`
 - Check Neovim version
-  - ![](z-Assets/Paste%20image%201699077593916image.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1699077593916image.png)
 - Update Neovim
   - on windows
     - On windows cmd (admin)
@@ -115,7 +114,7 @@ mindmap-plugin: basic
         - a package manager for Windows that automates the process of software installation, configuration, and updating on the Windows operating system. Install Neovim with chocolatey
   - on ubuntu
     - Update on ubuntu (not the latest version)
-      - [Medium-Update Neovim Guide](https://medium.com/@leonardormlins/easiest-way-to-update-neovim-on-ubuntu-a283c66d5322#:~:text=We%20are%20going%20to%20use%20the%20apt%20package,sudo%20apt-get%20update%20%24%20sudo%20apt-get%20install%20neovim)
+      - [Medium-Update Neovim Guide](https://medium.com/@leonardormlins/easiest-way-to-update-neovim-on-ubuntu-a283c66d5322#:~:text=We-are-going-to-use-the-apt-package,sudo-apt-get-update-%24-sudo-apt-get-install-neovim)
       - https://launchpad.net/~neovim-ppa/+archive/ubuntu/stable
 
 ## Nvim customization (Config Directory)
@@ -201,7 +200,7 @@ mindmap-plugin: basic
         - Reference
           - https://github.com/gelguy/wilder.nvim
         - Config
-          - 🐛[wilder_python-vim cmd auto-complete](wilder_python-vim%20cmd%20auto-complete.md)
+          - 🐛[wilder_python-vim cmd auto-complete](wilder_python-vim-cmd-auto-complete.md)
             - `:checkhealth`
         - Use
           - `TAB` to cycle options
@@ -214,7 +213,7 @@ mindmap-plugin: basic
 - `./spell`
   - word reference for spell checking
 
-## ⭐[Vim Basic commands](Vim%20Basic%20commands.md)
+## ⭐[Vim Basic commands](Vim-Basic-commands.md)
 
 ### Reference
 
@@ -222,10 +221,10 @@ mindmap-plugin: basic
 - [Surviving Your First Week | Online Video Tutorial by thoughtbot](https://thoughtbot.com/upcase/videos/onramp-to-vim-surviving-your-first-week)
 - http://iccf-holland.org/click5.html
 - [Basic commands for using VIM editor like a Pro](https://iq.opengenus.org/basic-commands-for-vim-editor/)
-- [简明 Vim 练级攻略 酷 壳 - CoolShell](简明%20Vim%20练级攻略%20%20酷%20壳%20-%20CoolShell)
-- [无插件 Vim 编程技巧 酷 壳 - CoolShell](无插件Vim编程技巧%20%20酷%20壳%20-%20CoolShell)
-- [YBlog - Learn Vim Progressively](YBlog%20-%20Learn%20Vim%20Progressively)
-- [YBlog - Vim as IDE](YBlog%20-%20Vim%20as%20IDE)
+- [简明 Vim 练级攻略 酷 壳 - CoolShell](简明-Vim-练级攻略--酷-壳---CoolShell)
+- [无插件 Vim 编程技巧 酷 壳 - CoolShell](无插件Vim编程技巧--酷-壳---CoolShell)
+- [YBlog - Learn Vim Progressively](YBlog---Learn-Vim-Progressively)
+- [YBlog - Vim as IDE](YBlog---Vim-as-IDE)
 
 ## For Navigation
 
@@ -244,9 +243,9 @@ mindmap-plugin: basic
       - https://github.com/kevinhwang91/nvim-hlslens
     - 🐛Bug
       - Press `n` at the home menu in Nvim
-        - ![](z-Assets/Paste%20image%201699255052203image.png)
+        - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1699255052203image.png)
       - When first activate search
-        - ![](z-Assets/Paste%20image%201699259389091image.png)
+        - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1699259389091image.png)
 - Tags navigation
   - vista
 
@@ -274,7 +273,7 @@ mindmap-plugin: basic
 
 ## For [LaTeX](LaTeX)
 
-### ⭐[LaTeX editing and previewing (Neovim)](<LaTeX%20editing%20and%20previewing%20(Neovim).md>)
+### ⭐[LaTeX editing and previewing (Neovim)](<LaTeX-editing-and-previewing-(Neovim).md>)
 
 ### LaTeX Config
 
@@ -287,7 +286,7 @@ mindmap-plugin: basic
     - Pre-installation
       - https://www.tug.org/texlive/quickinstall.html#running
     - Post-installation
-      - ![](z-Assets/Paste%20image%201699709125337image.png)
+      - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1699709125337image.png)
       - Add to path
         - https://tex.stackexchange.com/questions/456243/what-is-the-easiest-way-to-set-path-of-updatednew-version-texlive-installation
   - Plugin
@@ -307,7 +306,7 @@ mindmap-plugin: basic
         - `cmd /c start /min "" nvim -headless -c "VimtexInverseSearch %l '&f'"`
   - Zathura
     - Shortcut
-      - ![](z-Assets/Paste%20image%201699856166701image.png)
+      - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1699856166701image.png)
       - Inverse color
         - `CTRL R`
     - Command reference

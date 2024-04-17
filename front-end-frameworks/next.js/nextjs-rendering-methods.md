@@ -1,14 +1,11 @@
 ---
 title: NextJS Rendering Methods
-Type: D
+type: D
 tags:
   - React
-DateDo:
-DateDone:
-DateDue:
-status:
+status: 
 DateStarted: 2023-11-30
-DateModified: 2023-12-01
+DateModified: 2024-04-17
 ---
 
 # NextJS Rendering Methods
@@ -22,7 +19,7 @@ DateModified: 2023-12-01
 ### CSR
 
 - CSR-Client Side Rendering 客户端渲染
-- ![](Pasted%20image%2020230308102356.png)
+- ![](Pasted-image-20230308102356.png)
 - Instead of getting all the content from the HTML document itself, a bare-bones HTML document with a JavaScript file in initial loading itself is received, which renders the rest of the site using the browser.
 - With client-side rendering, the initial page load is naturally a bit slow. However, after that, every subsequent page load is very fast.
 - Communication with server happens only for **getting the run-time data**. Moreover, there is no need to reload the entire UI after every call to the server. The client-side framework manages to update UI with changed data by re-rendering only that particular DOM element.
@@ -40,12 +37,12 @@ DateModified: 2023-12-01
 
 - SSG-Static Site Generation 静态页面生成
 - In Next.js, by default, all pages will be cached to provide the performance of a static site
-- [SSG Frameworks](SSG%20Frameworks.md)
+- [SSG Frameworks](SSG-Frameworks.md)
 
 ### SSR
 
 - SSR-Server Side Rendering 服务端渲染
-- ![](Pasted%20image%2020230308102929.png)
+- ![](Pasted-image-20230308102929.png)
 - But if you want new data on every request like SSR, you can add `{cache: 'no-store'}` option to fetch, or for ISR , use the `{next:{revalidate:420}}` option with the number of revalidate seconds.
 - In **server-side rendering** when a user makes a request to a webpage, the server prepares an HTML page by fetching user-specific data and sends it to the user’s machine over the internet. The browser then constructs the content and displays the page. This entire process of fetching data from the database, creating an HTML page and sending it to client happens in mere milliseconds.
 - **Pros of Server Side Rendering** :

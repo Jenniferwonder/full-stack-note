@@ -2,14 +2,10 @@
 title: System Design
 tags:
   - System
-Type: O
-DateDo:
-DateDone:
-DateDue:
+type: O
 DateStarted: 2023-03-13
-DateModified: 2023-12-27
-status:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+status: 
 ---
 
 # System Design
@@ -22,7 +18,7 @@ mindmap-plugin: basic
 
 ### [System Design Course for Beginners - YouTube](https://www.youtube.com/watch?v=MbjObHmDbZo)
 
-### 📌[Distributed System Design-分布式技术架构](Distributed%20System%20Design-分布式技术架构.md)
+### 📌[Distributed System Design-分布式技术架构](Distributed-System-Design-分布式技术架构.md)
 
 ## Client-Server Model
 
@@ -63,7 +59,7 @@ mindmap-plugin: basic
 
 ### Browser receives the server's response and renders HTML on the page
 
-## ⭐[Network Protocols-网络协议](Network%20Protocols-网络协议)
+## ⭐[Network Protocols-网络协议](Network-Protocols-网络协议)
 
 ### IP
 
@@ -81,15 +77,15 @@ mindmap-plugin: basic
 
 ## Proxies
 
-## [Load Balancing](Load%20Balancing.md)
+## [Load Balancing](Load-Balancing.md)
 
 ## Hashing
 
 ## [Database](Database.md)
 
-### [Database Scaling and Design](Database%20Scaling%20and%20Design.md)
+### [Database Scaling and Design](Database-Scaling-and-Design.md)
 
-### [SQL DB](SQL%20DB.md)
+### [SQL DB](SQL-DB.md)
 
 ### Key-Value Stores
 
@@ -115,6 +111,6 @@ mindmap-plugin: basic
 
 ## Security and HTTPs
 
-## [API Design](API%20Design.md)
+## [API Design](API-Design.md)
 
-## [Design a YouTube Clone](Design%20a%20YouTube%20Clone.md)
+## [Design a YouTube Clone](Design-a-YouTube-Clone.md)

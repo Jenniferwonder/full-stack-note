@@ -2,13 +2,10 @@
 title: Visualization
 tags:
   - TechSkills
-Type: Note
+type: Note
 DateStarted: 2023-05-22
-DateModified: 2023-07-03
-status:
-DateDo:
-DateDue:
-DateDone:
+DateModified: 2024-04-17
+status: 
 Total: 0
 Completed: 0
 Incomplete: 0
@@ -24,7 +21,7 @@ sr-ease: 290
 
 ## Scope
 
-- ![[zz-assets/Pasted image 20230310115242.png]]
+- ![[https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image 20230310115242.png]]
 - Three.js/ WebGL/ D3.js
 - Canvas
 - [[GE-Admin Panel]]
@@ -38,8 +35,6 @@ sr-ease: 290
   - **d3**
   - **threejs**
   - **webgl**
-  - **z-Assets**
-    - [[pasted-image-20230310115242.png]]
 
 %% End Waypoint %%
 

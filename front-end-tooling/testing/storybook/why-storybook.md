@@ -2,19 +2,16 @@
 title: Why Storybook
 Topic:
   - Testing
-Type: D
+type: D
 tags:
   - Testing
 DateStarted: 2024-02-29
-DateModified: 2024-02-29
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Difficulty:
-status:
-Comment:
+DateModified: 2024-04-17
+Datereviewed: 
+reviewed: 
+Difficulty: 
+status: 
+Comment: 
 ---
 
 # Why Storybook

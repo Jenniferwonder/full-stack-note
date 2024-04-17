@@ -2,8 +2,8 @@
 title: MongoDB
 tags: TechSkills
 DateStarted: 2023-01-09
-DateModified: 2023-11-28
-status:
+DateModified: 2024-04-17
+status: 
 Progress: NaN%
 sr-due: 2023-07-02
 sr-interval: 4
@@ -31,7 +31,7 @@ Why? > [Comparing The Differences - MongoDB Vs MySQL | MongoDB](https://www.mong
 
 #### 1. Challenges and Concerns
 
-- ![](z-Assets/Pasted%20image%2020230320070956.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320070956.png)
 
 ##### 1.1. Data Model
 
@@ -43,7 +43,7 @@ Why? > [Comparing The Differences - MongoDB Vs MySQL | MongoDB](https://www.mong
 
 ##### 1.2. Teminology difference
 
-![](z-Assets/Pasted%20image%2020230320083604.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320083604.png)
 
 #### 2. MongoDB Options & Tools
 
@@ -85,11 +85,11 @@ Why? > [Comparing The Differences - MongoDB Vs MySQL | MongoDB](https://www.mong
 - Build a database
   - Add current IP Address
   - Choose a plan (M0-Free)
-    - ![](z-Assets/Pasted%20image%2020230320101118.png)
+    - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320101118.png)
   - Provider (Azure)
   - Recommended Region (Hongkong)
   - Name for the cluster
-    - ![](z-Assets/Pasted%20image%2020230320101328.png)
+    - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320101328.png)
 - Security > Quickstart
   - Authenticate your connection > Username and password
 - Deployment > Database> Load Sample Dataset
@@ -173,47 +173,47 @@ Why? > [Comparing The Differences - MongoDB Vs MySQL | MongoDB](https://www.mong
 ### Difference between SQL and MongoDB approach
 
 To face and answer to Constrains (physical, hardwre, software)  
-![](z-Assets/Pasted%20image%2020230320072127.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320072127.png)
 
 #### 1. SQL Approach (3rd normal form)
 
-![](z-Assets/Pasted%20image%2020230320072225.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320072225.png)
 
 #### 2. MongoDB Approach
 
-![](z-Assets/Pasted%20image%2020230320072315.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320072315.png)
 
 ### Techniques to Model for MongoDB
 
 #### 1. Methodology
 
-![](z-Assets/Pasted%20image%2020230320072445.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320072445.png)
 
 #### 2. Different thinking procedures
 
-![](z-Assets/Pasted%20image%2020230320072640.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320072640.png)
 
 #### 3. Analyze the workload
 
 - Listing operations
-  - ![](z-Assets/Pasted%20image%2020230320072739.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320072739.png)
 - Details for an operation
-  - ![](z-Assets/Pasted%20image%2020230320072903.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320072903.png)
 
 #### 4. Identify relationships
 
 - Different Data Modeling
-  - ![](z-Assets/Pasted%20image%2020230320073319.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320073319.png)
 - Criteria: What is used together in the application is stored together in the database.
 
 ##### 4.1. Determines Performance
 
 - How to deal with `join`?  
-  ![](z-Assets/Pasted%20image%2020230320071530.png)
+  ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320071530.png)
 
 ##### 4.2. Two ways of modeling relationships
 
-![](z-Assets/Pasted%20image%2020230320073743.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320073743.png)
 
 - Reference/Link
   - when the "many" side is a huge number
@@ -227,11 +227,11 @@ To face and answer to Constrains (physical, hardwre, software)
 
 ##### 4.3. Design Patterns
 
-![](z-Assets/Pasted%20image%2020230320080304.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320080304.png)
 
 #### 5. Evolving the model with the "Schema versioning" pattern
 
 Applying the **extended reference, computed, subset, schema versioning** patterns:  
-![](z-Assets/Pasted%20image%2020230320080750.png)  
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320080750.png)  
 schema versioning pattern is to optimize the releasing process  
-![](z-Assets/Pasted%20image%2020230320081256.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230320081256.png)

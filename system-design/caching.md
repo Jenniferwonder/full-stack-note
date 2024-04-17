@@ -1,3 +1,8 @@
+---
+DateStarted: 2023-12-27
+DateModified: 2024-04-17
+---
+
 ## Caching
 
 ### What?
@@ -12,11 +17,11 @@ When you cache something, you take data that would normally be stored on a hard 
   - Pre-calculate and cache data
   - Most apps have more reads than writes, perfect for caching
 - Save money  
-  ![](z-Assets/Pasted%20image%2020230315171153.png)
+  ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230315171153.png)
 
 ### Caching Layers
 
-![](z-Assets/Pasted%20image%2020230315172151.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230315172151.png)
 
 #### DNS
 
@@ -41,7 +46,7 @@ When you cache something, you take data that would normally be stored on a hard 
 
 - Has built-in functionality to replicate data , shared data across servers, and locate proper server for each key
 - Replication
-- ![](z-Assets/Pasted%20image%2020230315172830.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230315172830.png)
 
 ### Cache Eviction
 

@@ -1,6 +1,6 @@
 ---
 title: Debug Neovim can't load Python, even though everything is installed.
-Type: D
+type: D
 tags:
   - Vim
 status: ✅Done

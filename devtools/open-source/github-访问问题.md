@@ -1,14 +1,11 @@
 ---
 title: GitHub 访问问题
-Type:
+type: 
 tags:
   - Git
 DateStarted: 2024-01-08
-DateModified: 2024-01-08
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+DateDue: 
 ---
 
 # GitHub 访问问题

@@ -21,7 +21,6 @@ status:
 - 图床
 
 ## Reference
-
 - [大公司里怎样开发和部署前端代码？](https://link.juejin.cn?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F20790576 "https://www.zhihu.com/question/20790576")
 - [前端高级进阶：前端部署的发展历程](https://juejin.cn/post/6844904086823780366 "https://juejin.cn/post/6844904086823780366")
 - [如何部署网站？来比比谁的方法多 - 哔哩哔哩](https://www.bilibili.com/read/cv16179200)

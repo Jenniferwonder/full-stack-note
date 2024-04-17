@@ -1,11 +1,11 @@
 ---
-Type:
+type: 
 title: WebDev Basics
 tags:
   - TechSkills
 DateStarted: 2022-11-30
-DateModified: 2023-12-06
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## Set-up

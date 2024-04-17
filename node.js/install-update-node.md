@@ -1,14 +1,11 @@
 ---
 title: Install & Update Node
-Type:
+type: 
 tags:
   - NodeJS
 DateStarted: 2024-01-26
-DateModified: 2024-01-26
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## Install & Update Node
@@ -19,4 +16,4 @@ status:
 
 ### How to use NVM (Node version manager)
 
-![](z-Assets/Pasted%20image%2020230301092447.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301092447.png)

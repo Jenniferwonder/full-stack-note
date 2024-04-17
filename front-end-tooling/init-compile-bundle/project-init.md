@@ -1,24 +1,20 @@
 ---
 title: ProjectInit
-Type: O
-tags:
+type: O
+tags: 
 DateStarted: 2023-12-21
-DateModified: 2023-12-21
-DateDo:
-DateDone:
-DateDue:
-status:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+status: 
 ---
 
 # ProjectInit
 
-## [Start a React Project](Start%20a%20React%20Project.md)
+## [Start a React Project](Start-a-React-Project.md)
 
-## [How to start a React, NextJS and TailwindCSS project](How%20to%20start%20a%20React,%20NextJS%20and%20TailwindCSS%20project)
+## [How to start a React, NextJS and TailwindCSS project](How-to-start-a-React,-NextJS-and-TailwindCSS-project)
 
-## [Compilers and Bundlers](Compilers%20and%20Bundlers.md)
+## [Compilers and Bundlers](Compilers-and-Bundlers.md)
 
 ## [Vite](Vite.md)
 
-## [Parcel and Webpack Bug Fix](Parcel%20and%20Webpack%20Bug%20Fix.md)
+## [Parcel and Webpack Bug Fix](Parcel-and-Webpack-Bug-Fix.md)

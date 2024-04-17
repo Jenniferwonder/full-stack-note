@@ -4,17 +4,14 @@ Topic:
   - React
 tags:
   - React
-Type: D
-DateDo:
-DateDone:
-DateDue:
+type: D
 DateStarted: 2023-12-06
-DateModified: 2024-03-05
-DateReviewed:
-status:
-Reviewed:
-Difficulty:
-Comment:
+DateModified: 2024-04-17
+Datereviewed: 
+status: 
+reviewed: 
+Difficulty: 
+Comment: 
 aliases:
   - Share State (React Props)
 ---
@@ -36,7 +33,7 @@ aliases:
 
 ## Component & App Level
 
-### `![](./z-Assets/Paste-image-1701567850607image.png)`
+### `![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1701567850607image.png)`
 
 ### Move the _state_ up from the component to its parent
 

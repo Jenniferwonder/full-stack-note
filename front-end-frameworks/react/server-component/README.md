@@ -1,21 +1,19 @@
 ---
 title: "React Client and Server Components "
-Type: D
+type: D
 tags:
   - React
 DateStarted: 2024-01-17
-DateModified: 2024-01-17
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+DateDone: 
+status: 
 aliases:
   - React Server Components
 ---
 
 # React Client and Server Components
 
-## ![](./z-Assets/z-O-React-Server-Components.png)
+## ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/z-O-React-Server-Components.png)
 
 ## Server and Client Environments
 

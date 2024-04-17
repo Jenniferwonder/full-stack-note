@@ -3,9 +3,8 @@ title: Headless CMS
 Topic: TechSkills
 tags: TechSkills
 DateStarted: 2023-05-17
-DateModified: 2023-11-28
-DateDue:
-status:
+DateModified: 2024-04-17
+status: 
 Total: 0
 Completed: 0
 Incomplete: 0
@@ -31,16 +30,16 @@ sr-ease: 276
   - [Sanity, GROQ, and GraphQL - Espen Hovlandsdal @ An Evening of Sanity, 19.06.2018 - YouTube](https://www.youtube.com/watch?v=Jcfubj2zRI0)
   - [GraphQL](GraphQL.md)
 
-- ![](z-Assets/Pasted%20image%2020230308182329.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308182329.png)
 
 #### 3. Strapi
 
-- ![](z-Assets/Pasted%20image%2020230308182318.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308182318.png)
 
 #### 4. Keystone
 
-- ![](z-Assets/Pasted%20image%2020230308182306.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308182306.png)
 
 #### 5. Contentful
 
-- ![](z-Assets/Pasted%20image%2020230308182234.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308182234.png)

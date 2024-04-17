@@ -3,8 +3,8 @@ title: Git commands
 tags:
   - TechSkills
 DateStarted: 2022-12-10
-DateModified: 2023-12-08
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## Tools
@@ -57,7 +57,7 @@ status:
 #### Update
 
 - Update Git in Ubuntu
-  - [How to update Git in Ubuntu + Windows Subsystem for Linux – 7.dev](https://7.dev/how-to-update-git-in-ubuntu-windows-subsystem-for-linux/#:~:text=How%20to%20update%20Git%20in%20Ubuntu%20%2B%20Windows,and%20install%20Git%20from%20the%20new%20source%3A%20)
+  - [How to update Git in Ubuntu + Windows Subsystem for Linux – 7.dev](https://7.dev/how-to-update-git-in-ubuntu-windows-subsystem-for-linux/#:~:text=How-to-update-Git-in-Ubuntu-%2B-Windows,and-install-Git-from-the-new-source%3A-)
 - Update Git on windows
   - `git update-git-for-windows`
   - [How to upgrade Git on Windows to the latest version - Stack Overflow](https://stackoverflow.com/questions/13790592/how-to-upgrade-git-on-windows-to-the-latest-version)
@@ -265,7 +265,7 @@ Reference:
 #### 6. Pull Error -unrelated history
 
 - `git pull origin branchname --allow-unrelated-histories`
-- ![](z-Assets/Pasted-image-20230216170600.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230216170600.png)
 
 ### GIT GUI
 
@@ -275,4 +275,4 @@ PAT Ubuntu 不能执行 **git clone 或 git pull** 操作，退出用 windows cm
 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  
 [  
 ](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership)
-![](z-Assets/git-cheat-sheet-education.pdf)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/git-cheat-sheet-education.pdf)

@@ -2,16 +2,16 @@
 title: Web Architecture
 tags: TechSkills
 DateStarted: 2023-03-13
-DateModified: 2023-12-06
-status:
+DateModified: 2024-04-17
+status: 
 sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 276
 ---
 
-- Up:: [Distributed System Design-分布式技术架构](Distributed%20System%20Design-分布式技术架构.md)
+- Up:: [Distributed System Design-分布式技术架构](Distributed-System-Design-分布式技术架构.md)
   [WEB APP ARCHITECTURE - THE ULTIMATE APPROACH!! - YouTube](https://www.youtube.com/watch?v=PjprIvgGh90)
-  ![](Pasted%20image%2020230307214310.png)
+  ![](Pasted-image-20230307214310.png)
 
 ### Server-side development approaches
 
@@ -19,7 +19,7 @@ sr-ease: 276
 
 - [Monolithic 架构到微服务 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1349624)
 - [Monolithic vs Microservices Architecture - Which One Is Right for You?Jelvix](https://jelvix.com/blog/monolith-vs-microservices-architecture)
-- ![](Pasted%20image%2020230307215154.png)
+- ![](Pasted-image-20230307215154.png)
 - Single codebase but risky for highly scalable platforms
 
 #### 2. Microservices
@@ -61,8 +61,8 @@ Use servers to run a web app, which are not hosted by the company
 - Lower performance speed
 - Complicated debugging
 
-#### 3. [Service Worker-PWA](Service%20Worker-PWA)
+#### 3. [Service Worker-PWA](Service-Worker-PWA)
 
 #### 4. JAM-Stack
 
-![](zz-assets/Pasted%20image%2020230308183740.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230308183740.png)

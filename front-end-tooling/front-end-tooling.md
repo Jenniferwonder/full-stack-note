@@ -1,14 +1,10 @@
 ---
 title: Front-End Practice
-Type: O
-tags:
+type: O
+tags: 
 DateStarted: 2023-12-21
-DateModified: 2023-12-21
-DateDo:
-DateDone:
-DateDue:
-status:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+status: 
 ---
 
 # Front-End Practice
@@ -28,7 +24,7 @@ mindmap-plugin: basic
 ### Front-End Frameworks
 
 - HTML in JS
-  - 📌[React](O-React.md)
+  - 📌[react](private/p-react/react.md)
 - JS in HTML
   - 📌[Vue](O-Vue.md)
   - 📌[Svelte](O-Svelte.md)
@@ -56,13 +52,13 @@ mindmap-plugin: basic
 - Vue Component Lib
 - Svelte Component Lib
 
-## 🏷️[Component-Driven Development](Component-Driven%20Development.md)
+## 🏷️[Component-Driven Development](Component-Driven-Development.md)
 
 ### [Project-Init](Project-Init.md)
 
 ### [Testing](Testing.md)
 
-### [Compilers and Bundlers](Compilers%20and%20Bundlers.md)
+### [Compilers and Bundlers](Compilers-and-Bundlers.md)
 
 ## 📌Placeholder Data
 
@@ -94,7 +90,7 @@ mindmap-plugin: basic
   - Take control of incoming request
   - Use code to define routing and access rules for authentication, experimentation, and internationalization
 
-## 🏷️[Data Fetching](Data%20Fetching)
+## 🏷️[Data Fetching](Data-Fetching)
 
 ### where your data lives and how to get it.
 
@@ -104,7 +100,7 @@ mindmap-plugin: basic
 
 - Make React component async and await your data
   - Now we can totally get rid of things like `getStaticProps`, and `getServerSideProps` , instead we can write a plain JS function uses `fetch` (`async function...await`) and `await` the result of that function directly in a component, no need to pass props back and forth between client and server.
-    - ![](Pasted%20image%2020230227195806.png)
+    - ![](Pasted-image-20230227195806.png)
 - Support both client and server data fetching
 
 ## 🏷️Rendering
@@ -123,7 +119,7 @@ mindmap-plugin: basic
 ### SSG
 
 - Static Site Generation
-- 📌[SSG Frameworks](SSG%20Frameworks.md)
+- 📌[SSG Frameworks](SSG-Frameworks.md)
 
 ### SSR
 
@@ -155,7 +151,7 @@ mindmap-plugin: basic
 
 ### Payments
 
-### [User Analytics](User%20Analytics.md)
+### [User Analytics](User-Analytics.md)
 
 - [三方服务——访问统计与分析](三方服务——访问统计与分析.md)
 
@@ -185,7 +181,7 @@ mindmap-plugin: basic
 
 ### [代理-Nginx](代理-Nginx.md)
 
-## 🏷️[Front-End Performance Optimization](Front-End%20Performance%20Optimization)
+## 🏷️[Front-End Performance Optimization](Front-End-Performance-Optimization)
 
 ### how to optimize your application for end-users.
 

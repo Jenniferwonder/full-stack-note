@@ -1,21 +1,18 @@
 ---
 title: 数据库怎样存储 Markdown 文档数据
-Type:
+type: 
 tags:
   - MyBlog
-DateDo:
-DateDone:
-DateDue:
-status:
+status: 
 DateStarted: 2023-11-30
-DateModified: 2023-12-02
+DateModified: 2024-04-17
 ---
 
 # 数据库怎样存储 Markdown 文档数据
 
 ## Related
 
-- [Vuepress 2](Vuepress%202)
+- [Vuepress 2](Vuepress-2)
 
 ## Intro
 

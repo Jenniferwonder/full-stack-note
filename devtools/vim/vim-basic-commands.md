@@ -1,6 +1,6 @@
 ---
 title: Vim Basic commands
-Type: D
+type: D
 tags:
   - Vim
 status:

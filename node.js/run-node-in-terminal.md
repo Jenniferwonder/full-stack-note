@@ -1,14 +1,11 @@
 ---
 title: Run Node in Terminal
-Type: D
+type: D
 tags:
   - NodeJS
 DateStarted: 2024-01-26
-DateModified: 2024-01-26
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## Run Node in Terminal

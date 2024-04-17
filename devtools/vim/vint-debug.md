@@ -1,11 +1,11 @@
 ---
 title: Vint-Debug
-Type: D
+type: D
 tags:
   - Vim
 DateStarted: 2023-11-04
-DateModified: 2023-12-01
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## Source
@@ -20,5 +20,5 @@ A linter is a tool to check the source code for possible style and syntax issues
 
 ## Error
 
-- ![](z-Assets/Vint-Debug.png)
-- ![](z-Assets/Vint-Debug-1.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Vint-Debug.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Vint-Debug-1.png)

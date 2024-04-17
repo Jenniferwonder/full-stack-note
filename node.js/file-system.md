@@ -1,14 +1,11 @@
 ---
 title: File System
-Type: D
+type: D
 tags:
   - NodeJS
 DateStarted: 2024-01-26
-DateModified: 2024-01-26
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## File System
@@ -22,13 +19,13 @@ We can read a text file in Node by simply passing the path to that file and we'l
 
 #### Blocking
 
-- ![](z-Assets/Pasted%20image%2020230301100205.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301100205.png)
 
 #### Non-Blocking
 
 - Tip1: Use Callback
-  - ![](z-Assets/Pasted%20image%2020230301100308.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301100308.png)
 - Tip 2: Use Promise-based solutions
   - Import `readFile` from the `promises` namespace, which gives us a function returning a promise when called
-  - ![](z-Assets/Pasted%20image%2020230301100827.png)
-  - ![](z-Assets/Pasted%20image%2020230301100907.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301100827.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230301100907.png)

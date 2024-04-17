@@ -1,20 +1,17 @@
 ---
 title: About Node & Runtime
-Type: D
+type: D
 tags:
   - NodeJS
 DateStarted: 2024-01-26
-DateModified: 2024-01-26
-DateDo:
-DateDone:
-DateDue:
-status:
+DateModified: 2024-04-17
+status: 
 ---
 
 ## About Node & Runtime
 
 - A JS runtime to run JS in the server
-- ![](z-Assets/Pasted%20image%2020230310115943.png)
+- ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230310115943.png)
 
 ### Understand Runtime
 

@@ -2,20 +2,17 @@
 title: Monorepo
 Topic:
   - Git
-Type: O
+type: O
 tags:
   - Git
 DateStarted: 2024-02-23
-DateModified: 2024-02-23
-DateDo:
-DateDone:
-DateDue:
-DateReviewed:
-Reviewed:
-Difficulty:
-status:
-Comment:
-mindmap-plugin: basic
+DateModified: 2024-04-17
+DateDue: 
+ewed: 
+reviewed: 
+Difficulty: 
+status: 
+Comment: 
 ---
 
 # Monorepo

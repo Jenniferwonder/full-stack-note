@@ -1,7 +1,7 @@
 ---
 title: Think in React
 DateStarted: 2023-12-04
-DateModified: 2023-12-05
+DateModified: 2024-04-17
 aliases:
   - product-table-react
 source: https://react.dev/learn/thinking-in-react
@@ -14,12 +14,12 @@ source: https://react.dev/learn/thinking-in-react
 ### JS
 
 - Imperative
-  - ![](./z-Assets/Paste-image-1701516791954image.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1701516791954image.png)
 
 ### React
 
 - Declarative
-  - ![](./z-Assets/Paste-image-1701516813982image.png)
+  - ![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Paste-image-1701516813982image.png)
 
 ## Build a Filterable Product Table
 

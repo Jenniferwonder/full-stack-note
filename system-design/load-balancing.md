@@ -1,3 +1,8 @@
+---
+DateStarted: 2023-12-27
+DateModified: 2024-04-17
+---
+
 ## Load Balancing
 
 - Balance incoming traffic to multiple servers
@@ -7,4 +12,4 @@
 
 #### Load Balancers
 
-![](z-Assets/Pasted%20image%2020230315164956.png)
+![](https://cdn.jsdelivr.net/gh/jenniferwonder/bimg/full-stack/Pasted-image-20230315164956.png)

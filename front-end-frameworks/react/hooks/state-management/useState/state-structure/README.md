@@ -1,20 +1,17 @@
 ---
 title: React State Structure
-Type: D
+type: D
 tags:
   - React
 Topic:
   - React
-DateDue:
 DateStarted: 2024-01-17
-DateModified: 2024-03-05
-DateDo:
-DateDone:
-DateReviewed:
-status:
-Reviewed:
-Comment:
-Difficulty:
+DateModified: 2024-04-17
+Datereviewed: 
+status: 
+reviewed: 
+Comment: 
+Difficulty: 
 aliases:
   - React State Structure
 ---

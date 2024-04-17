@@ -2,8 +2,8 @@
 title: Sanity
 tags: TechSkills
 DateStarted: 2023-01-09
-DateModified: 2023-02-07
-status:
+DateModified: 2024-04-17
+status: 
 sr-due: 2023-07-02
 sr-interval: 4
 sr-ease: 270
@@ -46,6 +46,6 @@ Config `.env.local` when using Sanity-v3 with Vite?
 
 - [x] How to create and design **Schemas** in Sanity?
 - [x] How to CRUD Sanity data through Front-end operations?
-  - [Fetch API](Fetch%20API)
+  - [Fetch API](Fetch-API)
   - [Axios](Axios)
   - Use `groq`
