@@ -1,6 +1,6 @@
 ---
 title: Write Stories
-Topic:
+topic:
   - Testing
 type: D
 tags:
@@ -9,9 +9,9 @@ DateStarted: 2024-02-29
 DateModified: 2024-04-17
 Datereviewed: 
 reviewed: 
-Difficulty: 
+difficulty: 
 status: 
-Comment: 
+comment: 
 ---
 
 # Write Stories

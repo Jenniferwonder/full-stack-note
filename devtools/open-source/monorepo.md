@@ -1,6 +1,6 @@
 ---
 title: Monorepo
-Topic:
+topic:
   - Git
 type: O
 tags:
@@ -10,9 +10,9 @@ DateModified: 2024-04-17
 DateDue: 
 ewed: 
 reviewed: 
-Difficulty: 
+difficulty: 
 status: 
-Comment: 
+comment: 
 ---
 
 # Monorepo

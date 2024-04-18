@@ -1,8 +1,7 @@
 ---
 aliases:
-  - Front End Monitoring
-  - 前端监控
-title: Front End Monitoring
+  - Front End Monitoring-前端监控
+title: Front End Monitoring-前端监控
 topic: 
 type: 
 tags:
@@ -14,10 +13,10 @@ reviewed:
 difficulty: 
 status: 
 comment: 
-linter-yaml-title-alias: Front End Monitoring
+linter-yaml-title-alias: Front End Monitoring-前端监控
 ---
 
-# Front End Monitoring
+# Front End Monitoring-前端监控
 
 ##### 异常
 
@@ -32,4 +31,4 @@ linter-yaml-title-alias: Front End Monitoring
 
 ##### 埋点
 
-- [[performance/event-tracking|Event-tracking-前端埋点]]
+- [[performance/event-tracking-前端埋点|Event-tracking-前端埋点]]

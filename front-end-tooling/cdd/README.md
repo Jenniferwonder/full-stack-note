@@ -3,7 +3,7 @@ Title: Create & Publish Component Library (React)
 tags:
   - React
   - CDD
-Topic:
+topic:
   - CDD
 DateReviewed: 
 DateDue: 
@@ -11,11 +11,10 @@ Type: D
 DateStarted: 2024-01-16
 DateModified: 2024-04-17
 DateDo: 
-DateDone: 
 Reviewed: 
 status: 
-Difficulty: 
-Comment: 
+difficulty: 
+comment: 
 aliases:
   - React CDD
 ---

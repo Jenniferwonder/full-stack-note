@@ -1,17 +1,17 @@
 ---
 title: Astro Basics
-Topic: 
+topic: 
 type: 
 tags:
   - Astro
 DateStarted: 2024-03-29
-DateModified: 2024-04-17
+DateModified: 2024-04-18
 DateDue: 
 ewed: 
 reviewed: 
-Difficulty: 
+difficulty: 
 status: 
-Comment: 
+comment: 
 ---
 
 ### Why
@@ -143,3 +143,9 @@ To change the type of animation for a single element, add the `transition:anima
 #### Override transition animation (force a full browser reload)
 
 `<a href="/about/" data-astro-reload>About</a>`
+
+
+
+
+
+

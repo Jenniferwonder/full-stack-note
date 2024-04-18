@@ -1,6 +1,6 @@
 ---
 title: Database Paradigms
-Topic: 
+topic: 
 tags:
   - TechSkills
 DateStarted: 2023-05-17

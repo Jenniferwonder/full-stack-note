@@ -1,6 +1,6 @@
 ---
 title: Node.js Event Loop
-Topic:
+topic:
   - Async
 type: D
 tags:
@@ -10,9 +10,9 @@ DateStarted: 2024-02-20
 DateModified: 2024-04-17
 Datereviewed: 
 reviewed: 
-Difficulty: 
+difficulty: 
 status: 
-Comment: 
+comment: 
 ---
 
 # Node.js Event Loop

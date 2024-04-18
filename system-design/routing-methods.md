@@ -1,15 +1,15 @@
 ---
 title: Routing Methods
-Topic: 
+topic: 
 type: 
 tags: 
 DateStarted: 2023-12-27
 DateModified: 2024-04-17
 Datereviewed: 
 reviewed: 
-Difficulty: 
+difficulty: 
 status: 
-Comment: 
+comment: 
 ---
 
 ## Reference

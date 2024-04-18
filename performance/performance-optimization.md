@@ -5,7 +5,7 @@ tags:
   - Performance
 status: 
 DateStarted: 2022-12-16
-DateModified: 2024-04-17
+DateModified: 2024-04-18
 aliases:
   - Performance Optimization
 ---
@@ -19,7 +19,7 @@ aliases:
 
 ## 框架相关优化
 
-[[front-end-frameworks/react/react-performance/README|React Performance]]
+[[front-end-frameworks/react/react-performance/react-performance|React Performance]]
 [[O-NextJS|NextJS]]
 
 #### [[performance/performance-monitoring|前端性能监控]]
